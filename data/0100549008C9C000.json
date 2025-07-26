@@ -1,7 +1,7 @@
 {
   "docked": {
     "resolution_type": "Fixed",
-    "resolution": "720p",
+    "resolution": "1280x720",
     "resolutions": [],
     "min_res": "",
     "max_res": "",
@@ -12,7 +12,7 @@
   },
   "handheld": {
     "resolution_type": "Fixed",
-    "resolution": "720p",
+    "resolution": "1280x720",
     "resolutions": [],
     "min_res": "",
     "max_res": "",
