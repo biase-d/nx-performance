@@ -1,0 +1,24 @@
+{
+  "docked": {
+    "resolution_type": "Fixed",
+    "resolution": "960x536,1352x760,1560x872,1920x1080",
+    "resolutions": [],
+    "min_res": "",
+    "max_res": "",
+    "resolution_notes": "The resolutions are Simple Graphics, Medium Graphics, High Graphics and Max Graphics respectively ",
+    "fps_behavior": "Locked",
+    "target_fps": 30,
+    "fps_notes": ""
+  },
+  "handheld": {
+    "resolution_type": "Multiple Fixed",
+    "resolution": "",
+    "resolutions": "640x360,904x504,1040x584,1280x720",
+    "min_res": "",
+    "max_res": "",
+    "resolution_notes": "The resolutions are Simple Graphics, Medium Graphics, High Graphics and Max Graphics respectively ",
+    "fps_behavior": "Unlocked",
+    "target_fps": 30,
+    "fps_notes": "There is a toggle in the settings to unlock 60FPS but the game never manages to meet this target on all resolutions since it's heavily CPU bound"
+  }
+}
