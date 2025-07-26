@@ -1,0 +1,50 @@
+name: Validate Data PR
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR code
+        uses: actions/checkout@v4
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v44
+
+      - name: Run validation script
+        id: validation
+        if: steps.changed-files.outputs.all_changed_files != ''
+        continue-on-error: true
+        run: |
+          echo "Validating files:"
+          echo "${{ steps.changed-files.outputs.all_changed_files }}"
+          bash scripts/validate.sh ${{ steps.changed-files.outputs.all_changed_files }}
+
+      - name: Post failure comment on PR
+        if: failure() && steps.validation.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prNumber = context.issue.number;
+            const body = `
+**⚠️ Validation Failed**
+
+The automatic schema check for this Pull Request has failed. Please review the following:
+
+1. Ensure all submitted files are valid JSON.
+2. Check that all files match the required schema as defined in the repository's \`README.md\`.
+3. Review the "Checks" tab on this PR for detailed error logs from the validation script.
+
+Once corrected, please push changes to your branch to re-run the validation.
+            `;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+              body: body
+            });
