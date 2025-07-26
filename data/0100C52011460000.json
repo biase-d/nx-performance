@@ -1,8 +1,8 @@
 {
   "docked": {
     "resolution_type": "Multiple Fixed",
-    "resolution": "960x536,1352x760,1560x872,1920x1080",
-    "resolutions": [],
+    "resolution": [],
+    "resolutions": "960x536,1352x760,1560x872,1920x1080",
     "min_res": "",
     "max_res": "",
     "resolution_notes": "The resolutions are Simple Graphics, Medium Graphics, High Graphics and Max Graphics respectively ",
