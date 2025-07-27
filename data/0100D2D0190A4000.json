@@ -1,8 +1,8 @@
 {
   "docked": {
     "resolution_type": "Fixed",
-    "resolution": "1120x630",
-    "resolutions": [],
+    "resolution": "1600x900",
+    "resolutions": "",
     "min_res": "",
     "max_res": "",
     "resolution_notes": "",
@@ -12,8 +12,8 @@
   },
   "handheld": {
     "resolution_type": "Fixed",
-    "resolution": "1600x900",
-    "resolutions": [],
+    "resolution": "1120x630",
+    "resolutions": "",
     "min_res": "",
     "max_res": "",
     "resolution_notes": "",
