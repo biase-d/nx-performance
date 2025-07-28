@@ -80,16 +80,6 @@ jobs:
           POSTGRES_URL: ${{ secrets.POSTGRES_URL }}
         run: npm run build:index
 
-      - name: Deploy index file to GitHub Pages
-        if: steps.check_for_changes.outputs.should_build == 'true'
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./static
-          publish_branch: gh-pages
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
-
       - name: Store new commit hash
         if: steps.check_for_changes.outputs.should_build == 'true'
         run: echo "${{ steps.get_upstream_hash.outputs.current_hash }}" > last-upstream-commit-hash.txt
