@@ -78,6 +78,7 @@ jobs:
         if: steps.check_for_changes.outputs.should_build == 'true'
         env:
           POSTGRES_URL: ${{ secrets.POSTGRES_URL }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run build:index
 
       - name: Store new commit hash
