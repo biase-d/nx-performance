@@ -1,7 +1,6 @@
 import fs from 'fs/promises';
 import path from 'path';
 import postgres from 'postgres';
-import { simpleGit } from 'simple-git';
 import { schema } from './schema.js';
 
 const dataRepoPath = path.resolve(process.cwd(), 'tmp/titledb_data')
@@ -9,6 +8,11 @@ const mainIndexPath = path.join(dataRepoPath, 'output/main.json')
 const detailsDirPath = path.join(dataRepoPath, 'output/titleid')
 const performanceRepoPath = path.resolve(process.cwd(), 'tmp/performance_data')
 const performanceDataPath = path.join(performanceRepoPath, 'data')
+
+const GITHUB_TOKEN = process.env.GH_TOKEN || process.env.GITHUB_BOT_TOKEN;
+
+const owner = 'biase-d'; //todo
+const repo = 'nx-performance'; //todo
 
 function parseSize (sizeStr) {
     if (!sizeStr) return null
@@ -19,16 +23,66 @@ function parseSize (sizeStr) {
             return Math.round(parsedValue * (sizeMap[unit] || 1))
 }
 
+async function buidContributorMap() {
+    if (!GITHUB_TOKEN) {
+        console.warn("GITHUB_TOKEN not available. Skipping contributor attribution.");
+        return new Map();
+    }
+    console.log(`Building contributor map from ${owner}/${repo} PR history...`);
+    const octokit = new Octokit({ auth: GITHUB_TOKEN });
+    const contributorMap = new Map();
+    const coAuthorRegex = /Co-authored-by: .+ <(?:\d+\+)?(.+?)@users\.noreply\.github\.com>/;
+
+    try {
+        const prs = await octokit.paginate(octokit.pulls.list, { owner, repo, state: 'closed', per_page: 100 });
+        console.log(`Found ${prs.length} closed PRs to process`);
+
+        for (const pr of prs) {
+            if (!pr.merged_at) continue;
+
+            const branchName = pr.head.ref;
+            const titleIdMatch = branchName.match(/([A-F0-9]{16})$/);
+            if (!titleIdMatch) continue;
+
+            const titleId = titleIdMatch[1].toUpperCase();
+
+            const { data: commits } = await octokit.pulls.listCommits({ owner, repo, pull_number: pr.number, per_page: 1 });
+            if (commits.length === 0) continue;
+
+            const commit = commits[0];
+            const commitMessage = commit.commit.message;
+            const primaryAuthorLogin = commit.author?.login;
+
+            let contributor = null;
+            const coAuthorMatch = commitMessage.match(coAuthorRegex);
+
+            if (coAuthorMatch && coAuthorMatch[1]) {
+                contributor = coAuthorMatch[1];
+            } else if (primaryAuthorLogin && primaryAuthorLogin.toLowerCase() !== 'web-flow') {
+                contributor = primaryAuthorLogin;
+            }
+
+            if (contributor) {
+                contributorMap.set(titleId, contributor);
+            }
+        }
+    } catch (apiError) {
+        console.error(`Failed to build contributor map from GitHub API: ${apiError.message}`);
+    }
+
+    console.log(`-> Contributor map built with ${contributorMap.size} entries.`);
+    return contributorMap;
+}
+
 async function syncDatabase() {
     console.log('Starting database synchronization process...')
-
-    const git = simpleGit(performanceRepoPath);
 
     const connectionString = process.env.POSTGRES_URL;
     if (!connectionString) {
         console.error("ERROR: POSTGRES_URL environment variable not found.");
         process.exit(1);
     }
+
     const sql = postgres(connectionString, { ssl: 'require' });
 
     try {
@@ -65,34 +119,8 @@ async function syncDatabase() {
             console.log("-> Schema verification complete.");
         }
 
-        console.log('Extracting contributor information from Git history...');
-        const contributorMap = new Map();
-        try {
-            const dataFiles = await fs.readdir(performanceDataPath);
-            for (const file of dataFiles) {
-                if (file.endsWith('.json')) {
-                    const titleId = file.replace('.json', '');
-                    try {
-                        const log = await git.log({
-                            file: path.join('data', file),
-                            maxCount: 1,
-                            format: { authorEmail: '%ae' }
-                        });
-
-                        if (log.latest?.authorEmail) {
-                            const match = log.latest.authorEmail.match(/\+(.+)@users\.noreply\.github\.com$/);
-                            if (match && match[1]) {
-                                contributorMap.set(titleId, match[1]);
-                            }
-                        }
-                    } catch (e) {}
-                }
-            }
-        } catch (e) {
-            console.warn("Could not read performance data directory. Contributor info will be missing.");
-        }
-        console.log(`-> Found contributor info for ${contributorMap.size} files.`);
-
+        const contributorMap = await buidContributorMap()
+        
         console.log('Reading and merging data for titles found in nx-performance...')
         const mainIndexContent = await fs.readFile(mainIndexPath, 'utf-8')
         const mainIndex = JSON.parse(mainIndexContent)
