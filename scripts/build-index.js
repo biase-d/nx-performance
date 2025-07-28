@@ -2,6 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import postgres from 'postgres';
 import { schema } from './schema.js';
+import { Octokit } from '@octokit/rest';
 
 const dataRepoPath = path.resolve(process.cwd(), 'tmp/titledb_data')
 const mainIndexPath = path.join(dataRepoPath, 'output/main.json')
