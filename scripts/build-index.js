@@ -93,10 +93,12 @@ async function syncDatabase() {
         }
         console.log(`-> Found contributor info for ${contributorMap.size} files.`);
 
-        console.log('Reading and merging data from local files...')
+        console.log('Reading and merging data for titles found in nx-performance...')
         const mainIndexContent = await fs.readFile(mainIndexPath, 'utf-8')
         const mainIndex = JSON.parse(mainIndexContent)
-        const titleIds = Object.keys(mainIndex)
+        const performanceFiles = await fs.readdir(performanceDataPath); 
+        const titleIds = performanceFiles   
+            .filter(f => f.endsWith('.json'))   .map(f => f.replace('.json', ''));
 
         const allGamesData = []
         for (const id of titleIds) {
