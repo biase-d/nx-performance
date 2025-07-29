@@ -5,6 +5,8 @@ on:
     types: [closed]
     branches:
       - v1
+      
+  workflow_dispatch:
 
 jobs:
   dispatch:
