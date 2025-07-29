@@ -1,0 +1,20 @@
+name: Dispatch Update to Browser Repo
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+
+jobs:
+  dispatch:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Dispatch update event
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.SYNC_PAT }}
+          repository: biase-d/titledb-browser
+          event-type: nx-performance-updated
