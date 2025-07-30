@@ -10,7 +10,8 @@ on:
 
 jobs:
   dispatch:
-    if: github.event.pull_request.merged == true
+    # Run this job if the PR was merged OR if it was triggered manually
+    if: github.event.pull_request.merged == true || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
 
     steps:
