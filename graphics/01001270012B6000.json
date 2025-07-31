@@ -1,0 +1,16 @@
+{
+  "Resolution": {
+    "resolutionType": "Fixed",
+    "fixedResolution": "",
+    "minResolution": "",
+    "maxResolution": "",
+    "multipleResolutions": [
+      ""
+    ]
+  },
+  "Framerate": {
+    "lockType": "Custom",
+    "targetFps": 30,
+    "customLockDetails": ""
+  }
+}

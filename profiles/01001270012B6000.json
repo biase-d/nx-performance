@@ -1,0 +1,24 @@
+{
+  "docked": {
+    "resolution_type": "Fixed",
+    "resolution": "1280x720",
+    "resolutions": "",
+    "min_res": "",
+    "max_res": "",
+    "resolution_notes": "Higher quality shadows in docked mode",
+    "fps_behavior": "Locked",
+    "target_fps": 30,
+    "fps_notes": "Double buffer V-sync"
+  },
+  "handheld": {
+    "resolution_type": "Fixed",
+    "resolution": "1280x720",
+    "resolutions": "",
+    "min_res": "",
+    "max_res": "",
+    "resolution_notes": "",
+    "fps_behavior": "Locked",
+    "target_fps": 30,
+    "fps_notes": "Double buffer V-sync"
+  }
+}
