@@ -1,24 +1,24 @@
 {
   "docked": {
-    "resolution_type": "Fixed",
-    "resolution": "1920x1080",
-    "resolutions": "",
-    "min_res": "",
     "max_res": "",
-    "resolution_notes": "",
-    "fps_behavior": "Locked",
+    "min_res": "",
+    "fps_notes": "CPU limited framerate drops in some areas",
+    "resolution": "1920x1080",
     "target_fps": 30,
-    "fps_notes": "CPU limited framerate drops in some areas"
+    "resolutions": "",
+    "fps_behavior": "Locked",
+    "resolution_type": "Fixed",
+    "resolution_notes": "Some UI elements designed for 720p"
   },
   "handheld": {
-    "resolution_type": "Fixed",
-    "resolution": "1920x1080",
-    "resolutions": "",
-    "min_res": "",
     "max_res": "",
-    "resolution_notes": "",
-    "fps_behavior": "Locked",
+    "min_res": "",
+    "fps_notes": "CPU limited framerate drops in some areas",
+    "resolution": "1920x1080",
     "target_fps": 30,
-    "fps_notes": "CPU limited framerate drops in some areas"
+    "resolutions": "",
+    "fps_behavior": "Locked",
+    "resolution_type": "Fixed",
+    "resolution_notes": "Some UI elements designed for 720p"
   }
 }
