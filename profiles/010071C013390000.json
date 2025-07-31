@@ -1,0 +1,24 @@
+{
+  "docked": {
+    "resolution_type": "Multiple Fixed",
+    "resolution": "",
+    "resolutions": "1440x810,1600x900",
+    "min_res": "",
+    "max_res": "",
+    "resolution_notes": "UI renders at max resolution",
+    "fps_behavior": "Stable",
+    "target_fps": 30,
+    "fps_notes": "Fullscreen menus run at 60 FPS"
+  },
+  "handheld": {
+    "resolution_type": "Multiple Fixed",
+    "resolution": "",
+    "resolutions": "960x540,1280x720",
+    "min_res": "",
+    "max_res": "",
+    "resolution_notes": "UI renders at max resolution",
+    "fps_behavior": "Stable",
+    "target_fps": 30,
+    "fps_notes": "Fullscreen menus run at 60 FPS"
+  }
+}
