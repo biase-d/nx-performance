@@ -1,37 +1,37 @@
 {
   "docked": {
     "resolution": {
+      "maxResolution": "",
+      "minResolution": "",
       "resolutionType": "Fixed",
       "fixedResolution": "1920x1080",
-      "minResolution": "",
-      "maxResolution": "",
       "multipleResolutions": [
         ""
       ]
     },
     "framerate": {
+      "notes": "",
       "lockType": "Custom",
       "targetFps": 30,
-      "apiBuffering": "",
-      "notes": ""
+      "apiBuffering": ""
     },
     "custom": {}
   },
   "handheld": {
     "resolution": {
+      "maxResolution": "",
+      "minResolution": "",
       "resolutionType": "Fixed",
       "fixedResolution": "1280x720",
-      "minResolution": "",
-      "maxResolution": "",
       "multipleResolutions": [
         ""
       ]
     },
     "framerate": {
+      "notes": "",
       "lockType": "Custom",
       "targetFps": 30,
-      "apiBuffering": "",
-      "notes": ""
+      "apiBuffering": ""
     },
     "custom": {}
   },
