@@ -1,39 +1,39 @@
 {
   "docked": {
     "resolution": {
+      "notes": "",
+      "maxResolution": "",
+      "minResolution": "",
       "resolutionType": "Fixed",
       "fixedResolution": "",
-      "minResolution": "",
-      "maxResolution": "",
       "multipleResolutions": [
         ""
-      ],
-      "notes": ""
+      ]
     },
     "framerate": {
+      "notes": "Full screen menus and synthesis are Unlocked",
       "lockType": "API",
       "targetFps": 30,
-      "apiBuffering": "Unknown",
-      "notes": ""
+      "apiBuffering": "Unknown"
     },
     "custom": {}
   },
   "handheld": {
     "resolution": {
+      "notes": "",
+      "maxResolution": "",
+      "minResolution": "",
       "resolutionType": "Fixed",
       "fixedResolution": "",
-      "minResolution": "",
-      "maxResolution": "",
       "multipleResolutions": [
         ""
-      ],
-      "notes": ""
+      ]
     },
     "framerate": {
+      "notes": "Full screen menus and synthesis are Unlocked",
       "lockType": "API",
       "targetFps": 30,
-      "apiBuffering": "Unknown",
-      "notes": ""
+      "apiBuffering": "Unknown"
     },
     "custom": {}
   },
