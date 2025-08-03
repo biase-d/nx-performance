@@ -1,0 +1,50 @@
+{
+  "docked": {
+    "resolution": {
+      "resolutionType": "Dynamic",
+      "fixedResolution": "",
+      "minResolution": "896x504",
+      "maxResolution": "1280x720",
+      "multipleResolutions": [
+        ""
+      ]
+    },
+    "framerate": {
+      "lockType": "Custom",
+      "targetFps": 30,
+      "apiBuffering": "Double",
+      "notes": ""
+    },
+    "custom": {
+      "Antialiasing": {
+        "value": "TMAA",
+        "notes": ""
+      }
+    }
+  },
+  "handheld": {
+    "resolution": {
+      "resolutionType": "Dynamic",
+      "fixedResolution": "",
+      "minResolution": "672x378",
+      "maxResolution": "960x540",
+      "multipleResolutions": [
+        ""
+      ]
+    },
+    "framerate": {
+      "lockType": "Custom",
+      "targetFps": 30,
+      "apiBuffering": "Double",
+      "notes": ""
+    },
+    "custom": {
+      "Antialiasing": {
+        "value": "TMAA",
+        "notes": "Different sharpening filter is used in handheld which is slightly more aggressive."
+      }
+    }
+  },
+  "shared": {},
+  "contributor": "masagrator"
+}
