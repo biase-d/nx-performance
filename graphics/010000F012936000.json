@@ -1,0 +1,40 @@
+{
+  "docked": {
+    "resolution": {
+      "resolutionType": "Fixed",
+      "fixedResolution": "",
+      "minResolution": "",
+      "maxResolution": "",
+      "multipleResolutions": [
+        ""
+      ]
+    },
+    "framerate": {
+      "lockType": "API",
+      "targetFps": 30,
+      "apiBuffering": "Unknown",
+      "notes": ""
+    },
+    "custom": {}
+  },
+  "handheld": {
+    "resolution": {
+      "resolutionType": "Fixed",
+      "fixedResolution": "",
+      "minResolution": "",
+      "maxResolution": "",
+      "multipleResolutions": [
+        ""
+      ]
+    },
+    "framerate": {
+      "lockType": "API",
+      "targetFps": 30,
+      "apiBuffering": "Unknown",
+      "notes": ""
+    },
+    "custom": {}
+  },
+  "shared": {},
+  "contributor": "masagrator"
+}
