@@ -1,24 +1,24 @@
 {
   "docked": {
-    "resolution_type": "Multiple Fixed",
-    "resolution": "",
-    "resolutions": "1440x810,1600x900",
-    "min_res": "",
     "max_res": "",
-    "resolution_notes": "Resolution drops to 810p only while doing certain actions where it won't be as much visible, like during attack",
-    "fps_behavior": "Stable",
+    "min_res": "",
+    "fps_notes": "",
+    "resolution": "",
     "target_fps": 30,
-    "fps_notes": ""
+    "resolutions": "1440x810,1600x900",
+    "fps_behavior": "Stable",
+    "resolution_type": "Multiple Fixed",
+    "resolution_notes": "Resolution drops to 810p only when there are many alpha particle effects"
   },
   "handheld": {
-    "resolution_type": "Multiple Fixed",
-    "resolution": "",
-    "resolutions": "1024x630,1280x720",
-    "min_res": "",
     "max_res": "",
-    "resolution_notes": "Resolution drops to 630p only while doing certain actions where it won't be as much visible, like during attack",
-    "fps_behavior": "Stable",
+    "min_res": "",
+    "fps_notes": "",
+    "resolution": "",
     "target_fps": 30,
-    "fps_notes": ""
+    "resolutions": "1024x630,1280x720",
+    "fps_behavior": "Stable",
+    "resolution_type": "Multiple Fixed",
+    "resolution_notes": "Resolution drops to 630p only when there are many alpha particle effects"
   }
 }
