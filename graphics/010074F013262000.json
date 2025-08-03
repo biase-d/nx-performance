@@ -1,0 +1,42 @@
+{
+  "docked": {
+    "resolution": {
+      "resolutionType": "Dynamic",
+      "fixedResolution": "",
+      "minResolution": "672x384",
+      "maxResolution": "960x544",
+      "multipleResolutions": [
+        ""
+      ],
+      "notes": "Temporal Checkerboard Rendering is used to target 1920x1080"
+    },
+    "framerate": {
+      "lockType": "Custom",
+      "targetFps": 30,
+      "apiBuffering": "Double",
+      "notes": ""
+    },
+    "custom": {}
+  },
+  "handheld": {
+    "resolution": {
+      "resolutionType": "Dynamic",
+      "fixedResolution": "",
+      "minResolution": "480x272",
+      "maxResolution": "776x440",
+      "multipleResolutions": [
+        ""
+      ],
+      "notes": "Temporal Checkerboard Rendering is used to target 1280x720"
+    },
+    "framerate": {
+      "lockType": "Custom",
+      "targetFps": 30,
+      "apiBuffering": "Double",
+      "notes": ""
+    },
+    "custom": {}
+  },
+  "shared": {},
+  "contributor": "masagrator"
+}
