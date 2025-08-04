@@ -5,7 +5,7 @@
       "maxResolution": "",
       "minResolution": "",
       "resolutionType": "Fixed",
-      "fixedResolution": "",
+      "fixedResolution": "1920x1080",
       "multipleResolutions": [
         ""
       ]
@@ -14,7 +14,7 @@
       "notes": "Full screen menus and synthesis are Unlocked",
       "lockType": "API",
       "targetFps": 30,
-      "apiBuffering": "Unknown"
+      "apiBuffering": "Triple"
     },
     "custom": {}
   },
@@ -24,7 +24,7 @@
       "maxResolution": "",
       "minResolution": "",
       "resolutionType": "Fixed",
-      "fixedResolution": "",
+      "fixedResolution": "1280x720",
       "multipleResolutions": [
         ""
       ]
@@ -33,10 +33,10 @@
       "notes": "Full screen menus and synthesis are Unlocked",
       "lockType": "API",
       "targetFps": 30,
-      "apiBuffering": "Unknown"
+      "apiBuffering": "Triple"
     },
     "custom": {}
   },
   "shared": {},
-  "contributor": "masagrator"
+  "contributor": "ChanseyIsTheBest"
 }
