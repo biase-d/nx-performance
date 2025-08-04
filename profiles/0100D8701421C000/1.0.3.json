@@ -1,24 +1,24 @@
 {
   "docked": {
-    "resolution_type": "Fixed",
-    "resolution": "",
-    "resolutions": "",
-    "min_res": "",
     "max_res": "",
-    "resolution_notes": "",
-    "fps_behavior": "Locked",
-    "target_fps": "",
-    "fps_notes": ""
+    "min_res": "",
+    "fps_notes": "Drops in forest area with fog and alpha effects\n60 FPS for fullscreen menus and synthesis",
+    "resolution": "1920x1080",
+    "target_fps": 30,
+    "resolutions": "",
+    "fps_behavior": "Stable",
+    "resolution_type": "Fixed",
+    "resolution_notes": ""
   },
   "handheld": {
-    "resolution_type": "Fixed",
-    "resolution": "",
-    "resolutions": "",
-    "min_res": "",
     "max_res": "",
-    "resolution_notes": "",
-    "fps_behavior": "Locked",
-    "target_fps": "",
-    "fps_notes": ""
+    "min_res": "",
+    "fps_notes": "Drops in forest area with fog and alpha effects\n60 FPS for fullscreen menus and synthesis",
+    "resolution": "1280x720",
+    "target_fps": 30,
+    "resolutions": "",
+    "fps_behavior": "Stable",
+    "resolution_type": "Fixed",
+    "resolution_notes": ""
   }
 }
