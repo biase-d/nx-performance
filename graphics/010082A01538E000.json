@@ -1,42 +1,46 @@
 {
   "docked": {
     "resolution": {
-      "resolutionType": "Fixed",
-      "fixedResolution": "",
-      "minResolution": "",
+      "notes": "Quality mode - 900p\nPerformance mode - 810p",
       "maxResolution": "",
+      "minResolution": "",
+      "resolutionType": "Multiple Fixed",
+      "fixedResolution": "",
       "multipleResolutions": [
+        "1440x810",
+        "1600x900",
         ""
-      ],
-      "notes": ""
+      ]
     },
     "framerate": {
+      "notes": "Full screen menus and synthesis run at 60 FPS \nQuality mode has more frequent FPS drops",
       "lockType": "API",
       "targetFps": 30,
-      "apiBuffering": "Unknown",
-      "notes": ""
+      "apiBuffering": "Triple"
     },
     "custom": {}
   },
   "handheld": {
     "resolution": {
-      "resolutionType": "Fixed",
-      "fixedResolution": "",
-      "minResolution": "",
+      "notes": "Quality mode - 720p\nPerformance mode - 576p",
       "maxResolution": "",
+      "minResolution": "",
+      "resolutionType": "Multiple Fixed",
+      "fixedResolution": "",
       "multipleResolutions": [
+        "1280x720",
+        "1024x576",
         ""
-      ],
-      "notes": ""
+      ]
     },
     "framerate": {
+      "notes": "Full screen menus and synthesis run at 60 FPS \nQuality mode has more frequent FPS drops",
       "lockType": "API",
       "targetFps": 30,
-      "apiBuffering": "Unknown",
-      "notes": ""
+      "apiBuffering": "Triple"
     },
     "custom": {}
   },
   "shared": {},
-  "contributor": "masagrator"
+  "contributor": "ChanseyIsTheBest"
 }
