@@ -13,7 +13,7 @@
       ]
     },
     "framerate": {
-      "notes": "Full screen menus and synthesis run at 60 FPS \nQuality mode has more frequent FPS drops",
+      "notes": "Full screen menus run at 60 FPS \nQuality mode has more frequent FPS drops",
       "lockType": "API",
       "targetFps": 30,
       "apiBuffering": "Triple"
@@ -34,7 +34,7 @@
       ]
     },
     "framerate": {
-      "notes": "Full screen menus and synthesis run at 60 FPS \nQuality mode has more frequent FPS drops",
+      "notes": "Full screen menus run at 60 FPS \nQuality mode has more frequent FPS drops",
       "lockType": "API",
       "targetFps": 30,
       "apiBuffering": "Triple"
