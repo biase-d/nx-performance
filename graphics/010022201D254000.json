@@ -1,0 +1,44 @@
+{
+  "docked": {
+    "resolution": {
+      "resolutionType": "Multiple Fixed",
+      "fixedResolution": "",
+      "minResolution": "",
+      "maxResolution": "",
+      "multipleResolutions": [
+        "854x480",
+        "1280x720",
+        "1920x1080"
+      ],
+      "notes": "Resolution is adjusted to system setting \"TV Resolution\""
+    },
+    "framerate": {
+      "lockType": "Custom",
+      "targetFps": 30,
+      "apiBuffering": "Triple",
+      "notes": ""
+    },
+    "custom": {}
+  },
+  "handheld": {
+    "resolution": {
+      "resolutionType": "Fixed",
+      "fixedResolution": "1280x720",
+      "minResolution": "",
+      "maxResolution": "",
+      "multipleResolutions": [
+        ""
+      ],
+      "notes": ""
+    },
+    "framerate": {
+      "lockType": "Custom",
+      "targetFps": 30,
+      "apiBuffering": "Triple",
+      "notes": ""
+    },
+    "custom": {}
+  },
+  "shared": {},
+  "contributor": "masagrator"
+}
