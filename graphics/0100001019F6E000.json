@@ -1,0 +1,42 @@
+{
+  "docked": {
+    "resolution": {
+      "resolutionType": "Dynamic",
+      "fixedResolution": "",
+      "minResolution": "1280x720",
+      "maxResolution": "1920x1080",
+      "multipleResolutions": [
+        ""
+      ],
+      "notes": "Output resolution is matching system setting \"TV Resolution\".\nFor 720p Dynamic Resolution range is 746x420-1280x720, for 480p it's 498x280-854x480."
+    },
+    "framerate": {
+      "lockType": "Custom",
+      "targetFps": 30,
+      "apiBuffering": "Triple",
+      "notes": "Main menu is running at 60 FPS"
+    },
+    "custom": {}
+  },
+  "handheld": {
+    "resolution": {
+      "resolutionType": "Dynamic",
+      "fixedResolution": "",
+      "minResolution": "746x420",
+      "maxResolution": "1280x720",
+      "multipleResolutions": [
+        ""
+      ],
+      "notes": ""
+    },
+    "framerate": {
+      "lockType": "Custom",
+      "targetFps": 30,
+      "apiBuffering": "Triple",
+      "notes": "Main menu is running at 60 FPS"
+    },
+    "custom": {}
+  },
+  "shared": {},
+  "contributor": "masagrator"
+}
