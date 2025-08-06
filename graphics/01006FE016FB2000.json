@@ -1,42 +1,44 @@
 {
   "docked": {
     "resolution": {
+      "notes": "",
+      "maxResolution": "",
+      "minResolution": "",
       "resolutionType": "Fixed",
       "fixedResolution": "1280x720",
-      "minResolution": "",
-      "maxResolution": "",
       "multipleResolutions": [
         ""
-      ],
-      "notes": ""
+      ]
     },
     "framerate": {
+      "notes": "",
       "lockType": "Custom",
       "targetFps": 30,
-      "apiBuffering": "Double",
-      "notes": ""
+      "apiBuffering": "Double"
     },
     "custom": {}
   },
   "handheld": {
     "resolution": {
+      "notes": "",
+      "maxResolution": "",
+      "minResolution": "",
       "resolutionType": "Fixed",
       "fixedResolution": "1280x720",
-      "minResolution": "",
-      "maxResolution": "",
       "multipleResolutions": [
         ""
-      ],
-      "notes": ""
+      ]
     },
     "framerate": {
+      "notes": "",
       "lockType": "Custom",
       "targetFps": 30,
-      "apiBuffering": "Double",
-      "notes": ""
+      "apiBuffering": "Double"
     },
     "custom": {}
   },
   "shared": {},
-  "contributor": "masagrator"
+  "contributor": [
+    "masagrator"
+  ]
 }
