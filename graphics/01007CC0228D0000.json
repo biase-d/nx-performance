@@ -1,42 +1,44 @@
 {
   "docked": {
     "resolution": {
+      "notes": "Output resolution is adjusted to system setting \"TV Resolution\". \nThere are 3 scaling options: Native, stretched 4:3, stretched 16:9. Resolutions look like this for each TV Resolution\n480p: 640x426, 640x480, 854x480;\n720p: 960x640, 960x720, 1280x720;\n1080p: 1440x960, 1440x1080, 1920x1080",
+      "maxResolution": "",
+      "minResolution": "",
       "resolutionType": "Fixed",
       "fixedResolution": "320x240",
-      "minResolution": "",
-      "maxResolution": "",
       "multipleResolutions": [
         ""
-      ],
-      "notes": "Output resolution is adjusted to system setting \"TV Resolution\". \nThere are 3 scaling options: Native, stretched 4:3, stretched 16:9. Resolutions look like this for each TV Resolution\n480p: 640x426, 640x480, 854x480;\n720p: 960x640, 960x720, 1280x720;\n1080p: 1440x960, 1440x1080, 1920x1080"
+      ]
     },
     "framerate": {
+      "notes": "Game engine runs Unlocked, but internally all games are running at 30 FPS.",
       "lockType": "Custom",
       "targetFps": 30,
-      "apiBuffering": "Double",
-      "notes": "Game engine runs Unlocked, but internally all games are running at 30 FPS."
+      "apiBuffering": "Double"
     },
     "custom": {}
   },
   "handheld": {
     "resolution": {
+      "notes": "There are 3 scaling options: Native (960x640), stretched 4:3 (960x720), stretched 16:9 (1280x720).",
+      "maxResolution": "",
+      "minResolution": "",
       "resolutionType": "Fixed",
       "fixedResolution": "320x240",
-      "minResolution": "",
-      "maxResolution": "",
       "multipleResolutions": [
         ""
-      ],
-      "notes": "There are 3 scaling options: Native (960x640), stretched 4:3 (960x720), stretched 16:9 (1280x720)."
+      ]
     },
     "framerate": {
+      "notes": "Game engine runs Unlocked, but internally all games are running at 30 FPS.",
       "lockType": "Custom",
       "targetFps": 30,
-      "apiBuffering": "Double",
-      "notes": "Game engine runs Unlocked, but internally all games are running at 30 FPS."
+      "apiBuffering": "Double"
     },
     "custom": {}
   },
   "shared": {},
-  "contributor": "masagrator"
+  "contributor": [
+    "masagrator"
+  ]
 }
