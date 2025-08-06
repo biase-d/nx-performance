@@ -1,0 +1,42 @@
+{
+  "docked": {
+    "resolution": {
+      "resolutionType": "Dynamic",
+      "fixedResolution": "",
+      "minResolution": "1152x648",
+      "maxResolution": "1920x1080",
+      "multipleResolutions": [
+        ""
+      ],
+      "notes": "For the Guardian of Light Min Resolution is 1344x756.\nIf system setting \"TV Resolution\" is not 1080p, Dynamic Resolution range is 768x432-1280x720 for the Temple of Osiris, for the Guardian of Light it's 896x504-1280x720."
+    },
+    "framerate": {
+      "lockType": "API",
+      "targetFps": 30,
+      "apiBuffering": "Triple",
+      "notes": "In Temple of Osiris on top of API Lock there is Custom FPS Lock."
+    },
+    "custom": {}
+  },
+  "handheld": {
+    "resolution": {
+      "resolutionType": "Dynamic",
+      "fixedResolution": "",
+      "minResolution": "768x432",
+      "maxResolution": "1280x720",
+      "multipleResolutions": [
+        ""
+      ],
+      "notes": "For the Guardian of Light Min Resolution is 896x504."
+    },
+    "framerate": {
+      "lockType": "API",
+      "targetFps": 30,
+      "apiBuffering": "Triple",
+      "notes": "In the Temple of Osiris on top of API Lock there is Custom FPS Lock."
+    },
+    "custom": {}
+  },
+  "shared": {},
+  "contributor": "masagrator"
+}
