@@ -1,42 +1,42 @@
 {
   "docked": {
     "resolution": {
+      "notes": "",
+      "maxResolution": "",
+      "minResolution": "",
       "resolutionType": "Fixed",
       "fixedResolution": "",
-      "minResolution": "",
-      "maxResolution": "",
       "multipleResolutions": [
         ""
-      ],
-      "notes": ""
+      ]
     },
     "framerate": {
+      "notes": "Menus run at 60 FPS",
       "lockType": "API",
       "targetFps": 30,
-      "apiBuffering": "Unknown",
-      "notes": ""
+      "apiBuffering": "Double (Reversed)"
     },
     "custom": {}
   },
   "handheld": {
     "resolution": {
+      "notes": "",
+      "maxResolution": "",
+      "minResolution": "",
       "resolutionType": "Fixed",
       "fixedResolution": "",
-      "minResolution": "",
-      "maxResolution": "",
       "multipleResolutions": [
         ""
-      ],
-      "notes": ""
+      ]
     },
     "framerate": {
+      "notes": "Menus run at 60 FPS",
       "lockType": "API",
       "targetFps": 30,
-      "apiBuffering": "Unknown",
-      "notes": ""
+      "apiBuffering": "Double (Reversed)"
     },
     "custom": {}
   },
   "shared": {},
-  "contributor": "masagrator"
+  "contributor": ["masagrator", "ChanseyIsTheBest"]
 }

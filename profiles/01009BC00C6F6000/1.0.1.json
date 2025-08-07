@@ -2,7 +2,7 @@
   "docked": {
     "max_res": "",
     "min_res": "",
-    "fps_notes": "CPU limited framerate drops in some areas",
+    "fps_notes": "CPU limited framerate drops in some areas\nMenus run at 60 FPS",
     "resolution": "1920x1080",
     "target_fps": 30,
     "resolutions": "",
@@ -13,7 +13,7 @@
   "handheld": {
     "max_res": "",
     "min_res": "",
-    "fps_notes": "CPU limited framerate drops in some areas",
+    "fps_notes": "CPU limited framerate drops in some areas\nMenus run at 60 FPS",
     "resolution": "1920x1080",
     "target_fps": 30,
     "resolutions": "",
