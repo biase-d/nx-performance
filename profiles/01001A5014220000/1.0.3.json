@@ -16,7 +16,7 @@
     "fps_notes": "60 FPS for fullscreen menus and synthesis",
     "resolution": "",
     "target_fps": 30,
-    "resolutions": "1280x720,1024x576",
+    "resolutions": "1280x720, 1024x576",
     "fps_behavior": "Stable",
     "resolution_type": "Multiple Fixed",
     "resolution_notes": "720p for gameplay, synthesis and full screen menus\n576p for certain cutscenes"
