@@ -1,0 +1,24 @@
+{
+  "docked": {
+    "max_res": "1280x720",
+    "min_res": "640x360",
+    "fps_notes": "More stable performance in docked mode\n",
+    "resolution": "",
+    "target_fps": 30,
+    "resolutions": "",
+    "fps_behavior": "Stable",
+    "resolution_type": "Dynamic",
+    "resolution_notes": "More shadows in docked mode"
+  },
+  "handheld": {
+    "max_res": "1280x720",
+    "min_res": "640x360",
+    "fps_notes": "",
+    "resolution": "",
+    "target_fps": 30,
+    "resolutions": "",
+    "fps_behavior": "Stable",
+    "resolution_type": "Dynamic",
+    "resolution_notes": ""
+  }
+}
