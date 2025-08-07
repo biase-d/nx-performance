@@ -1,0 +1,44 @@
+{
+  "docked": {
+    "resolution": {
+      "resolutionType": "Dynamic",
+      "fixedResolution": "",
+      "minResolution": "960x540",
+      "maxResolution": "1280x720",
+      "multipleResolutions": [
+        ""
+      ],
+      "notes": "For SONIC GENERATIONS it's Fixed 1920x1080"
+    },
+    "framerate": {
+      "lockType": "Custom",
+      "targetFps": 30,
+      "apiBuffering": "Double (Reversed)",
+      "notes": "For SONIC GENERATIONS it's 31.5 FPS"
+    },
+    "custom": {}
+  },
+  "handheld": {
+    "resolution": {
+      "resolutionType": "Dynamic",
+      "fixedResolution": "",
+      "minResolution": "640x360",
+      "maxResolution": "1280x720",
+      "multipleResolutions": [
+        ""
+      ],
+      "notes": "For SONIC GENERATIONS it's Fixed 1280x720"
+    },
+    "framerate": {
+      "lockType": "Custom",
+      "targetFps": 30,
+      "apiBuffering": "Double (Reversed)",
+      "notes": "For SONIC GENERATIONS it's 31.5 FPS"
+    },
+    "custom": {}
+  },
+  "shared": {},
+  "contributor": [
+    "masagrator"
+  ]
+}
