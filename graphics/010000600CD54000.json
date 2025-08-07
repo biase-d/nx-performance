@@ -1,0 +1,44 @@
+{
+  "docked": {
+    "resolution": {
+      "resolutionType": "Dynamic",
+      "fixedResolution": "",
+      "minResolution": "576x324",
+      "maxResolution": "896x504",
+      "multipleResolutions": [
+        ""
+      ],
+      "notes": ""
+    },
+    "framerate": {
+      "lockType": "Custom",
+      "targetFps": 31,
+      "apiBuffering": "Triple",
+      "notes": ""
+    },
+    "custom": {}
+  },
+  "handheld": {
+    "resolution": {
+      "resolutionType": "Dynamic",
+      "fixedResolution": "",
+      "minResolution": "576x324",
+      "maxResolution": "896x504",
+      "multipleResolutions": [
+        ""
+      ],
+      "notes": ""
+    },
+    "framerate": {
+      "lockType": "Custom",
+      "targetFps": 31,
+      "apiBuffering": "Triple",
+      "notes": ""
+    },
+    "custom": {}
+  },
+  "shared": {},
+  "contributor": [
+    "masagrator"
+  ]
+}
