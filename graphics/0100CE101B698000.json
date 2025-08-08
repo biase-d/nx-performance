@@ -1,0 +1,25 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Double (Reversed)",
+      "lockType": "API",
+      "targetFps": 30
+    },
+    "resolution": {
+      "resolutionType": "Dynamic"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Double (Reversed)",
+      "lockType": "API",
+      "targetFps": 30
+    },
+    "resolution": {
+      "resolutionType": "Dynamic"
+    }
+  }
+}
