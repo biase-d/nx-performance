@@ -32,7 +32,7 @@
     "framerate": {
       "lockType": "API",
       "targetFps": 30,
-      "apiBuffering": "Triple",
+      "apiBuffering": "Double",
       "notes": ""
     },
     "custom": {}
