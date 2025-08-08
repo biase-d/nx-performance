@@ -1,0 +1,37 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Custom",
+      "notes": "High Performance mode is Unlocked",
+      "targetFps": 30
+    },
+    "resolution": {
+      "multipleResolutions": [
+        "1440x810",
+        "1920x1080"
+      ],
+      "notes": "High Performance mode is 1440x810",
+      "resolutionType": "Multiple Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Custom",
+      "notes": "High Performance mode is Unlocked",
+      "targetFps": 30
+    },
+    "resolution": {
+      "multipleResolutions": [
+        "960x540",
+        "1280x720"
+      ],
+      "notes": "High Performance mode is 960x540",
+      "resolutionType": "Multiple Fixed"
+    }
+  }
+}
