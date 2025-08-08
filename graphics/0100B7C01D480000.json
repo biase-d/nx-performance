@@ -1,39 +1,39 @@
 {
   "docked": {
     "resolution": {
-      "resolutionType": "Fixed",
-      "fixedResolution": "",
-      "minResolution": "",
+      "notes": "",
       "maxResolution": "",
+      "minResolution": "",
+      "resolutionType": "Dynamic",
+      "fixedResolution": "",
       "multipleResolutions": [
         ""
-      ],
-      "notes": ""
+      ]
     },
     "framerate": {
+      "notes": "",
       "lockType": "API",
       "targetFps": 30,
-      "apiBuffering": "Double (Reversed)",
-      "notes": ""
+      "apiBuffering": "Double (Reversed)"
     },
     "custom": {}
   },
   "handheld": {
     "resolution": {
-      "resolutionType": "Fixed",
-      "fixedResolution": "",
-      "minResolution": "",
+      "notes": "",
       "maxResolution": "",
+      "minResolution": "",
+      "resolutionType": "Dynamic",
+      "fixedResolution": "",
       "multipleResolutions": [
         ""
-      ],
-      "notes": ""
+      ]
     },
     "framerate": {
+      "notes": "",
       "lockType": "API",
       "targetFps": 30,
-      "apiBuffering": "Double (Reversed)",
-      "notes": ""
+      "apiBuffering": "Double (Reversed)"
     },
     "custom": {}
   },
