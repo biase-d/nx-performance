@@ -1,0 +1,24 @@
+{
+  "docked": {
+    "max_res": "",
+    "min_res": "",
+    "fps_notes": "",
+    "resolution": "1280x720",
+    "target_fps": 60,
+    "resolutions": "",
+    "fps_behavior": "Stable",
+    "resolution_type": "Fixed",
+    "resolution_notes": ""
+  },
+  "handheld": {
+    "max_res": "",
+    "min_res": "",
+    "fps_notes": "",
+    "resolution": "1280x720",
+    "target_fps": 60,
+    "resolutions": "",
+    "fps_behavior": "Unstable",
+    "resolution_type": "Fixed",
+    "resolution_notes": ""
+  }
+}
