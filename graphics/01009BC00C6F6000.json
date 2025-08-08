@@ -1,42 +1,28 @@
 {
+  "contributor": [
+    "masagrator",
+    "ChanseyIsTheBest"
+  ],
   "docked": {
-    "resolution": {
-      "notes": "",
-      "maxResolution": "",
-      "minResolution": "",
-      "resolutionType": "Fixed",
-      "fixedResolution": "",
-      "multipleResolutions": [
-        ""
-      ]
-    },
     "framerate": {
-      "notes": "Menus run at 60 FPS",
+      "apiBuffering": "Double (Reversed)",
       "lockType": "API",
-      "targetFps": 30,
-      "apiBuffering": "Double (Reversed)"
+      "notes": "Menus run at 60 FPS",
+      "targetFps": 30
     },
-    "custom": {}
+    "resolution": {
+      "resolutionType": "Fixed"
+    }
   },
   "handheld": {
-    "resolution": {
-      "notes": "",
-      "maxResolution": "",
-      "minResolution": "",
-      "resolutionType": "Fixed",
-      "fixedResolution": "",
-      "multipleResolutions": [
-        ""
-      ]
-    },
     "framerate": {
-      "notes": "Menus run at 60 FPS",
+      "apiBuffering": "Double (Reversed)",
       "lockType": "API",
-      "targetFps": 30,
-      "apiBuffering": "Double (Reversed)"
+      "notes": "Menus run at 60 FPS",
+      "targetFps": 30
     },
-    "custom": {}
-  },
-  "shared": {},
-  "contributor": ["masagrator", "ChanseyIsTheBest"]
+    "resolution": {
+      "resolutionType": "Fixed"
+    }
+  }
 }

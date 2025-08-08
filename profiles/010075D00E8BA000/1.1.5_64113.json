@@ -1,24 +1,16 @@
 {
   "docked": {
-    "resolution_type": "Dynamic",
-    "resolution": "",
-    "resolutions": "",
-    "min_res": "1344x756",
-    "max_res": "1920x1080",
-    "resolution_notes": "",
     "fps_behavior": "Stable",
-    "target_fps": 30,
-    "fps_notes": ""
+    "max_res": "1920x1080",
+    "min_res": "1344x756",
+    "resolution_type": "Dynamic",
+    "target_fps": 30
   },
   "handheld": {
-    "resolution_type": "Dynamic",
-    "resolution": "",
-    "resolutions": "",
-    "min_res": "896x504",
-    "max_res": "1280x720",
-    "resolution_notes": "",
     "fps_behavior": "Stable",
-    "target_fps": 30,
-    "fps_notes": ""
+    "max_res": "1280x720",
+    "min_res": "896x504",
+    "resolution_type": "Dynamic",
+    "target_fps": 30
   }
 }

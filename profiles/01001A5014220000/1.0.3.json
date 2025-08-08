@@ -1,24 +1,18 @@
 {
   "docked": {
-    "max_res": "",
-    "min_res": "",
-    "fps_notes": "60 FPS for fullscreen menus and synthesis",
-    "resolution": "",
-    "target_fps": 30,
-    "resolutions": "1920x1080,1600x900,1440x810",
     "fps_behavior": "Stable",
+    "fps_notes": "60 FPS for fullscreen menus and synthesis",
+    "resolution_notes": "1080p for synthesis and full screen menus\n900p for gameplay\n810p for certain cutscenes",
     "resolution_type": "Multiple Fixed",
-    "resolution_notes": "1080p for synthesis and full screen menus\n900p for gameplay\n810p for certain cutscenes"
+    "resolutions": "1920x1080,1600x900,1440x810",
+    "target_fps": 30
   },
   "handheld": {
-    "max_res": "",
-    "min_res": "",
-    "fps_notes": "60 FPS for fullscreen menus and synthesis",
-    "resolution": "",
-    "target_fps": 30,
-    "resolutions": "1280x720, 1024x576",
     "fps_behavior": "Stable",
+    "fps_notes": "60 FPS for fullscreen menus and synthesis",
+    "resolution_notes": "720p for gameplay, synthesis and full screen menus\n576p for certain cutscenes",
     "resolution_type": "Multiple Fixed",
-    "resolution_notes": "720p for gameplay, synthesis and full screen menus\n576p for certain cutscenes"
+    "resolutions": "1280x720, 1024x576",
+    "target_fps": 30
   }
 }

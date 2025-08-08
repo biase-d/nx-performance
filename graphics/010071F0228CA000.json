@@ -1,42 +1,29 @@
 {
+  "contributor": "masagrator",
   "docked": {
-    "resolution": {
-      "resolutionType": "Fixed",
-      "fixedResolution": "1152x648",
-      "minResolution": "",
-      "maxResolution": "",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": "Resolution of 4:3 gameplay window is 864x648"
-    },
     "framerate": {
-      "lockType": "API",
-      "targetFps": 30,
       "apiBuffering": "Triple",
-      "notes": "On top of API Lock there is Custom FPS Lock"
+      "lockType": "API",
+      "notes": "On top of API Lock there is Custom FPS Lock",
+      "targetFps": 30
     },
-    "custom": {}
+    "resolution": {
+      "fixedResolution": "1152x648",
+      "notes": "Resolution of 4:3 gameplay window is 864x648",
+      "resolutionType": "Fixed"
+    }
   },
   "handheld": {
-    "resolution": {
-      "resolutionType": "Fixed",
-      "fixedResolution": "768x432",
-      "minResolution": "",
-      "maxResolution": "",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": "Resolution of 4:3 gameplay window is 576x432"
-    },
     "framerate": {
-      "lockType": "API",
-      "targetFps": 30,
       "apiBuffering": "Triple",
-      "notes": "On top of API Lock there is Custom FPS Lock"
+      "lockType": "API",
+      "notes": "On top of API Lock there is Custom FPS Lock",
+      "targetFps": 30
     },
-    "custom": {}
-  },
-  "shared": {},
-  "contributor": "masagrator"
+    "resolution": {
+      "fixedResolution": "768x432",
+      "notes": "Resolution of 4:3 gameplay window is 576x432",
+      "resolutionType": "Fixed"
+    }
+  }
 }

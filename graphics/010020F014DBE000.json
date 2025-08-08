@@ -1,44 +1,29 @@
 {
-  "docked": {
-    "resolution": {
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "minResolution": "1280x720",
-      "maxResolution": "1600x900",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": ""
-    },
-    "framerate": {
-      "lockType": "Custom",
-      "targetFps": 30,
-      "apiBuffering": "Triple",
-      "notes": ""
-    },
-    "custom": {}
-  },
-  "handheld": {
-    "resolution": {
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "minResolution": "896x504",
-      "maxResolution": "1152x648",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": ""
-    },
-    "framerate": {
-      "lockType": "Custom",
-      "targetFps": 30,
-      "apiBuffering": "Triple",
-      "notes": ""
-    },
-    "custom": {}
-  },
-  "shared": {},
   "contributor": [
     "masagrator"
-  ]
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Custom",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "1600x900",
+      "minResolution": "1280x720",
+      "resolutionType": "Dynamic"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Custom",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "1152x648",
+      "minResolution": "896x504",
+      "resolutionType": "Dynamic"
+    }
+  }
 }

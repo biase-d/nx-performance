@@ -1,44 +1,33 @@
 {
-  "docked": {
-    "resolution": {
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "minResolution": "960x540",
-      "maxResolution": "1280x720",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": "In SONIC GENERATIONS it's Fixed 1920x1080"
-    },
-    "framerate": {
-      "lockType": "Custom",
-      "targetFps": 30,
-      "apiBuffering": "Double (Reversed)",
-      "notes": "In SONIC GENERATIONS it's 31.5 FPS, Triple buffer"
-    },
-    "custom": {}
-  },
-  "handheld": {
-    "resolution": {
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "minResolution": "640x360",
-      "maxResolution": "1280x720",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": "In SONIC GENERATIONS it's Fixed 1280x720"
-    },
-    "framerate": {
-      "lockType": "Custom",
-      "targetFps": 30,
-      "apiBuffering": "Double (Reversed)",
-      "notes": "In SONIC GENERATIONS it's 31.5 FPS, Triple buffer"
-    },
-    "custom": {}
-  },
-  "shared": {},
   "contributor": [
     "masagrator"
-  ]
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Double (Reversed)",
+      "lockType": "Custom",
+      "notes": "In SONIC GENERATIONS it's 31.5 FPS, Triple buffer",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "1280x720",
+      "minResolution": "960x540",
+      "notes": "In SONIC GENERATIONS it's Fixed 1920x1080",
+      "resolutionType": "Dynamic"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Double (Reversed)",
+      "lockType": "Custom",
+      "notes": "In SONIC GENERATIONS it's 31.5 FPS, Triple buffer",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "1280x720",
+      "minResolution": "640x360",
+      "notes": "In SONIC GENERATIONS it's Fixed 1280x720",
+      "resolutionType": "Dynamic"
+    }
+  }
 }

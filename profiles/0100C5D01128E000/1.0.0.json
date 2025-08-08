@@ -1,24 +1,16 @@
 {
   "docked": {
-    "resolution_type": "Multiple Fixed",
-    "resolution": "",
-    "resolutions": "1920x1080, 1536x864",
-    "min_res": "",
-    "max_res": "",
-    "resolution_notes": "Game drops resolution to 864p during active gameplay in levels",
     "fps_behavior": "Locked",
-    "target_fps": 60,
-    "fps_notes": ""
+    "resolution_notes": "Game drops resolution to 864p during active gameplay in levels",
+    "resolution_type": "Multiple Fixed",
+    "resolutions": "1920x1080, 1536x864",
+    "target_fps": 60
   },
   "handheld": {
-    "resolution_type": "Multiple Fixed",
-    "resolution": "",
-    "resolutions": "1280x720, 1024x576",
-    "min_res": "",
-    "max_res": "",
-    "resolution_notes": "Game drops resolution to 576p during active gameplay in levels",
     "fps_behavior": "Locked",
-    "target_fps": 60,
-    "fps_notes": ""
+    "resolution_notes": "Game drops resolution to 576p during active gameplay in levels",
+    "resolution_type": "Multiple Fixed",
+    "resolutions": "1280x720, 1024x576",
+    "target_fps": 60
   }
 }

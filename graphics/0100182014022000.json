@@ -1,42 +1,29 @@
 {
+  "contributor": "masagrator",
   "docked": {
-    "resolution": {
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "minResolution": "776x436",
-      "maxResolution": "1152x648",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": ""
-    },
     "framerate": {
-      "lockType": "API",
-      "targetFps": 30,
       "apiBuffering": "Triple",
-      "notes": "On top of API Lock there is Custom FPS Lock"
+      "lockType": "API",
+      "notes": "On top of API Lock there is Custom FPS Lock",
+      "targetFps": 30
     },
-    "custom": {}
+    "resolution": {
+      "maxResolution": "1152x648",
+      "minResolution": "776x436",
+      "resolutionType": "Dynamic"
+    }
   },
   "handheld": {
-    "resolution": {
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "minResolution": "692x390",
-      "maxResolution": "924x520",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": ""
-    },
     "framerate": {
-      "lockType": "API",
-      "targetFps": 30,
       "apiBuffering": "Triple",
-      "notes": "On top of API Lock there is Custom FPS Lock"
+      "lockType": "API",
+      "notes": "On top of API Lock there is Custom FPS Lock",
+      "targetFps": 30
     },
-    "custom": {}
-  },
-  "shared": {},
-  "contributor": "masagrator"
+    "resolution": {
+      "maxResolution": "924x520",
+      "minResolution": "692x390",
+      "resolutionType": "Dynamic"
+    }
+  }
 }

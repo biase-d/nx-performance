@@ -1,24 +1,15 @@
 {
   "docked": {
-    "resolution_type": "Fixed",
-    "resolution": "1920x1080",
-    "resolutions": "",
-    "min_res": "",
-    "max_res": "",
-    "resolution_notes": "Liberation DLC is Fixed 900p",
     "fps_behavior": "Unstable",
-    "target_fps": 30,
-    "fps_notes": ""
+    "resolution": "1920x1080",
+    "resolution_notes": "Liberation DLC is Fixed 900p",
+    "resolution_type": "Fixed",
+    "target_fps": 30
   },
   "handheld": {
-    "resolution_type": "Fixed",
-    "resolution": "1280x720",
-    "resolutions": "",
-    "min_res": "",
-    "max_res": "",
-    "resolution_notes": "",
     "fps_behavior": "Unstable",
-    "target_fps": 30,
-    "fps_notes": ""
+    "resolution": "1280x720",
+    "resolution_type": "Fixed",
+    "target_fps": 30
   }
 }

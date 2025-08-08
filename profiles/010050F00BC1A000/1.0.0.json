@@ -1,24 +1,10 @@
 {
   "docked": {
-    "resolution_type": "Fixed",
-    "resolution": "",
-    "resolutions": "",
-    "min_res": "",
-    "max_res": "",
-    "resolution_notes": "",
     "fps_behavior": "Locked",
-    "target_fps": "",
-    "fps_notes": ""
+    "resolution_type": "Fixed"
   },
   "handheld": {
-    "resolution_type": "Fixed",
-    "resolution": "",
-    "resolutions": "",
-    "min_res": "",
-    "max_res": "",
-    "resolution_notes": "",
     "fps_behavior": "Locked",
-    "target_fps": "",
-    "fps_notes": ""
+    "resolution_type": "Fixed"
   }
 }

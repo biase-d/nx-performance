@@ -1,44 +1,31 @@
 {
-  "docked": {
-    "resolution": {
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "minResolution": "1120x630",
-      "maxResolution": "1600x900",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": ""
-    },
-    "framerate": {
-      "lockType": "Custom",
-      "targetFps": 30,
-      "apiBuffering": "Triple",
-      "notes": "Menus are running Unlocked"
-    },
-    "custom": {}
-  },
-  "handheld": {
-    "resolution": {
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "minResolution": "896x504",
-      "maxResolution": "1280x720",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": ""
-    },
-    "framerate": {
-      "lockType": "Custom",
-      "targetFps": 30,
-      "apiBuffering": "Triple",
-      "notes": "Menus are running Unlocked"
-    },
-    "custom": {}
-  },
-  "shared": {},
   "contributor": [
     "masagrator"
-  ]
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Custom",
+      "notes": "Menus are running Unlocked",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "1600x900",
+      "minResolution": "1120x630",
+      "resolutionType": "Dynamic"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Custom",
+      "notes": "Menus are running Unlocked",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "1280x720",
+      "minResolution": "896x504",
+      "resolutionType": "Dynamic"
+    }
+  }
 }

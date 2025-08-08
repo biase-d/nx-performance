@@ -1,44 +1,31 @@
 {
-  "docked": {
-    "resolution": {
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "minResolution": "1076x605",
-      "maxResolution": "1344x756",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": ""
-    },
-    "framerate": {
-      "lockType": "API",
-      "targetFps": 30,
-      "apiBuffering": "Triple",
-      "notes": "On top of API Lock there is Custom FPS Lock"
-    },
-    "custom": {}
-  },
-  "handheld": {
-    "resolution": {
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "minResolution": "768x432",
-      "maxResolution": "960x540",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": ""
-    },
-    "framerate": {
-      "lockType": "API",
-      "targetFps": 30,
-      "apiBuffering": "Triple",
-      "notes": "On top of API Lock there is Custom FPS Lock"
-    },
-    "custom": {}
-  },
-  "shared": {},
   "contributor": [
     "masagrator"
-  ]
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "notes": "On top of API Lock there is Custom FPS Lock",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "1344x756",
+      "minResolution": "1076x605",
+      "resolutionType": "Dynamic"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "notes": "On top of API Lock there is Custom FPS Lock",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "960x540",
+      "minResolution": "768x432",
+      "resolutionType": "Dynamic"
+    }
+  }
 }

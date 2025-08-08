@@ -1,42 +1,27 @@
 {
+  "contributor": "masagrator",
   "docked": {
-    "resolution": {
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "minResolution": "832x468",
-      "maxResolution": "1280x720",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": ""
-    },
     "framerate": {
-      "lockType": "Custom",
-      "targetFps": 31,
       "apiBuffering": "Triple",
-      "notes": ""
+      "lockType": "Custom",
+      "targetFps": 31
     },
-    "custom": {}
+    "resolution": {
+      "maxResolution": "1280x720",
+      "minResolution": "832x468",
+      "resolutionType": "Dynamic"
+    }
   },
   "handheld": {
-    "resolution": {
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "minResolution": "832x468",
-      "maxResolution": "1024x576",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": ""
-    },
     "framerate": {
-      "lockType": "Custom",
-      "targetFps": 31,
       "apiBuffering": "Triple",
-      "notes": ""
+      "lockType": "Custom",
+      "targetFps": 31
     },
-    "custom": {}
-  },
-  "shared": {},
-  "contributor": "masagrator"
+    "resolution": {
+      "maxResolution": "1024x576",
+      "minResolution": "832x468",
+      "resolutionType": "Dynamic"
+    }
+  }
 }

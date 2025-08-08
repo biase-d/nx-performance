@@ -1,42 +1,27 @@
 {
+  "contributor": "ChanseyIsTheBest",
   "docked": {
-    "resolution": {
-      "resolutionType": "Fixed",
-      "fixedResolution": "1280x720",
-      "minResolution": "",
-      "maxResolution": "",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": ""
-    },
     "framerate": {
-      "lockType": "API",
-      "targetFps": 30,
       "apiBuffering": "Triple",
-      "notes": "Overworld NPC movement speed is tied to framerate"
+      "lockType": "API",
+      "notes": "Overworld NPC movement speed is tied to framerate",
+      "targetFps": 30
     },
-    "custom": {}
+    "resolution": {
+      "fixedResolution": "1280x720",
+      "resolutionType": "Fixed"
+    }
   },
   "handheld": {
-    "resolution": {
-      "resolutionType": "Fixed",
-      "fixedResolution": "1280x720",
-      "minResolution": "",
-      "maxResolution": "",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": ""
-    },
     "framerate": {
-      "lockType": "API",
-      "targetFps": 30,
       "apiBuffering": "Triple",
-      "notes": "Overworld NPC movement speed is tied to framerate"
+      "lockType": "API",
+      "notes": "Overworld NPC movement speed is tied to framerate",
+      "targetFps": 30
     },
-    "custom": {}
-  },
-  "shared": {},
-  "contributor": "ChanseyIsTheBest"
+    "resolution": {
+      "fixedResolution": "1280x720",
+      "resolutionType": "Fixed"
+    }
+  }
 }

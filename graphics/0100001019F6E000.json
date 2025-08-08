@@ -1,44 +1,32 @@
 {
-  "docked": {
-    "resolution": {
-      "notes": "Output resolution is matching system setting \"TV Resolution\".\nFor 720p Dynamic Resolution range is 746x420-1280x720, for 480p it's 498x280-854x480.",
-      "maxResolution": "1920x1080",
-      "minResolution": "1120x630",
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "multipleResolutions": [
-        ""
-      ]
-    },
-    "framerate": {
-      "notes": "Main menu is running at 60 FPS",
-      "lockType": "Custom",
-      "targetFps": 30,
-      "apiBuffering": "Triple"
-    },
-    "custom": {}
-  },
-  "handheld": {
-    "resolution": {
-      "notes": "",
-      "maxResolution": "1280x720",
-      "minResolution": "746x420",
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "multipleResolutions": [
-        ""
-      ]
-    },
-    "framerate": {
-      "notes": "Main menu is running at 60 FPS",
-      "lockType": "Custom",
-      "targetFps": 30,
-      "apiBuffering": "Triple"
-    },
-    "custom": {}
-  },
-  "shared": {},
   "contributor": [
     "masagrator"
-  ]
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Custom",
+      "notes": "Main menu is running at 60 FPS",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "1920x1080",
+      "minResolution": "1120x630",
+      "notes": "Output resolution is matching system setting \"TV Resolution\".\nFor 720p Dynamic Resolution range is 746x420-1280x720, for 480p it's 498x280-854x480.",
+      "resolutionType": "Dynamic"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Custom",
+      "notes": "Main menu is running at 60 FPS",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "1280x720",
+      "minResolution": "746x420",
+      "resolutionType": "Dynamic"
+    }
+  }
 }

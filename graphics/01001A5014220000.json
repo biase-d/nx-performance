@@ -1,47 +1,39 @@
 {
+  "contributor": [
+    "masagrator",
+    "ChanseyIsTheBest"
+  ],
   "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "notes": "60 FPS for fullscreen menus and synthesis",
+      "targetFps": 30
+    },
     "resolution": {
-      "resolutionType": "Multiple Fixed",
-      "fixedResolution": "",
-      "minResolution": "",
-      "maxResolution": "",
       "multipleResolutions": [
         "1920x1080",
         "1600x900",
-        "1440x810",
-        ""
+        "1440x810"
       ],
-      "notes": "1080p for synthesis and full screen menus\n900p for gameplay\n810p for certain cutscenes"
-    },
-    "framerate": {
-      "lockType": "API",
-      "targetFps": 30,
-      "apiBuffering": "Triple",
-      "notes": "60 FPS for fullscreen menus and synthesis"
-    },
-    "custom": {}
+      "notes": "1080p for synthesis and full screen menus\n900p for gameplay\n810p for certain cutscenes",
+      "resolutionType": "Multiple Fixed"
+    }
   },
   "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "notes": "60 FPS for fullscreen menus and synthesis",
+      "targetFps": 30
+    },
     "resolution": {
-      "resolutionType": "Multiple Fixed",
-      "fixedResolution": "",
-      "minResolution": "",
-      "maxResolution": "",
       "multipleResolutions": [
         "1280x720",
-        "1024x576",
-        ""
+        "1024x576"
       ],
-      "notes": "720p for gameplay, synthesis and full screen menus\n576p for certain cutscenes"
-    },
-    "framerate": {
-      "lockType": "API",
-      "targetFps": 30,
-      "apiBuffering": "Triple",
-      "notes": "60 FPS for fullscreen menus and synthesis"
-    },
-    "custom": {}
-  },
-  "shared": {},
-  "contributor": ["masagrator", "ChanseyIsTheBest"]
+      "notes": "720p for gameplay, synthesis and full screen menus\n576p for certain cutscenes",
+      "resolutionType": "Multiple Fixed"
+    }
+  }
 }

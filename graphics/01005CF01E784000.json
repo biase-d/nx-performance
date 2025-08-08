@@ -1,42 +1,24 @@
 {
+  "contributor": "masagrator",
   "docked": {
-    "resolution": {
-      "resolutionType": "Fixed",
-      "fixedResolution": "1280x720",
-      "minResolution": "",
-      "maxResolution": "",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": "Output resolution is always 2/3 of system setting \"TV Resolution\". So for 720p it's 854x480, for 480p it's 570x320"
-    },
     "framerate": {
-      "lockType": "Unlocked",
-      "targetFps": "",
       "apiBuffering": "Triple",
-      "notes": ""
+      "lockType": "Unlocked"
     },
-    "custom": {}
+    "resolution": {
+      "fixedResolution": "1280x720",
+      "notes": "Output resolution is always 2/3 of system setting \"TV Resolution\". So for 720p it's 854x480, for 480p it's 570x320",
+      "resolutionType": "Fixed"
+    }
   },
   "handheld": {
-    "resolution": {
-      "resolutionType": "Fixed",
-      "fixedResolution": "854x480",
-      "minResolution": "",
-      "maxResolution": "",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": ""
-    },
     "framerate": {
-      "lockType": "Unlocked",
-      "targetFps": "",
       "apiBuffering": "Triple",
-      "notes": ""
+      "lockType": "Unlocked"
     },
-    "custom": {}
-  },
-  "shared": {},
-  "contributor": "masagrator"
+    "resolution": {
+      "fixedResolution": "854x480",
+      "resolutionType": "Fixed"
+    }
+  }
 }
