@@ -1,0 +1,26 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Double",
+      "lockType": "Unlocked"
+    },
+    "resolution": {
+      "fixedResolution": "320x256",
+      "notes": "Game is upscaled to match system setting \"TV Resolution\"",
+      "resolutionType": "Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Double",
+      "lockType": "Unlocked"
+    },
+    "resolution": {
+      "fixedResolution": "320x256",
+      "resolutionType": "Fixed"
+    }
+  }
+}
