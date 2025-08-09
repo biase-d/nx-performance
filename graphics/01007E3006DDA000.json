@@ -1,0 +1,36 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Double",
+      "lockType": "Custom",
+      "targetFps": 30
+    },
+    "resolution": {
+      "multipleResolutions": [
+        "1440x810",
+        "1760x990",
+        "1920x1080"
+      ],
+      "notes": "In side-scrolling mode resolution is 1440x810, in top-down view it's 1760x990",
+      "resolutionType": "Multiple Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Double",
+      "lockType": "Custom",
+      "targetFps": 30
+    },
+    "resolution": {
+      "multipleResolutions": [
+        "1120x630",
+        "1280x720"
+      ],
+      "notes": "In side-scrolling mode resolution is 1120x630",
+      "resolutionType": "Multiple Fixed"
+    }
+  }
+}
