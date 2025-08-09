@@ -10,6 +10,7 @@
     "resolution": {
       "maxResolution": "1280x720",
       "minResolution": "1024x576",
+      "notes": "In Klonoa 2 it's 1536x864-1920x1080",
       "resolutionType": "Dynamic"
     }
   },
