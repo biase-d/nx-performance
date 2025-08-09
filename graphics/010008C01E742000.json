@@ -1,40 +1,26 @@
 {
+  "contributor": [
+    "ChanseyIsTheBest",
+    "masagrator"
+  ],
   "docked": {
-    "resolution": {
-      "resolutionType": "Fixed",
-      "fixedResolution": "1920x1080",
-      "minResolution": "",
-      "maxResolution": "",
-      "multipleResolutions": [
-        ""
-      ]
-    },
     "framerate": {
-      "lockType": "API",
-      "targetFps": 60,
       "apiBuffering": "Triple",
-      "notes": ""
+      "lockType": "Unlocked"
     },
-    "custom": {}
+    "resolution": {
+      "fixedResolution": "1280x720",
+      "resolutionType": "Fixed"
+    }
   },
   "handheld": {
-    "resolution": {
-      "resolutionType": "Fixed",
-      "fixedResolution": "1920x1080",
-      "minResolution": "",
-      "maxResolution": "",
-      "multipleResolutions": [
-        ""
-      ]
-    },
     "framerate": {
-      "lockType": "API",
-      "targetFps": 60,
       "apiBuffering": "Triple",
-      "notes": ""
+      "lockType": "Unlocked"
     },
-    "custom": {}
-  },
-  "shared": {},
-  "contributor": "ChanseyIsTheBest"
+    "resolution": {
+      "fixedResolution": "1920x1080",
+      "resolutionType": "Fixed"
+    }
+  }
 }
