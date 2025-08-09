@@ -1,0 +1,28 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked"
+    },
+    "resolution": {
+      "maxResolution": "1056x596",
+      "minResolution": "581x327",
+      "notes": "Lower resolution than in handheld is an effect of using temporal upscaling",
+      "resolutionType": "Dynamic"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked"
+    },
+    "resolution": {
+      "maxResolution": "1067x600",
+      "minResolution": "587x330",
+      "resolutionType": "Dynamic"
+    }
+  }
+}
