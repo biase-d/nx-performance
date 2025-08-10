@@ -10,7 +10,7 @@
     "resolution": {
       "maxResolution": "1056x596",
       "minResolution": "581x327",
-      "notes": "Lower resolution than in handheld is an effect of using temporal upscaling",
+      "notes": "Lower resolution than in handheld is an effect of using temporal upscaling. Dynamic resolution always targets 30 FPS.",
       "resolutionType": "Dynamic"
     }
   },
@@ -22,6 +22,7 @@
     "resolution": {
       "maxResolution": "1067x600",
       "minResolution": "587x330",
+      "notes": "Dynamic resolution always targets 30 FPS.",
       "resolutionType": "Dynamic"
     }
   }
