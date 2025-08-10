@@ -9,7 +9,7 @@
     },
     "resolution": {
       "fixedResolution": "640x360",
-      "notes": "Using integer upscaling to target 1920x1080",
+      "notes": "Using integer scaling to target 1920x1080",
       "resolutionType": "Fixed"
     }
   },
@@ -20,7 +20,7 @@
     },
     "resolution": {
       "fixedResolution": "640x360",
-      "notes": "Using integer upscaling to target 1280x720",
+      "notes": "Using integer scaling to target 1280x720",
       "resolutionType": "Fixed"
     }
   }
