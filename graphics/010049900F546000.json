@@ -1,0 +1,31 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked",
+      "notes": "In Super Mario Galaxy it's using Custom FPS Lock set to 30, Super Mario Sunshine is Double buffer and also using Custom FPS Lock set to 30."
+    },
+    "resolution": {
+      "maxResolution": "1920x1080",
+      "minResolution": "960x540",
+      "notes": "In Super Mario Galaxy it's Fixed 960x720, in Super Mario Sunshine it's Fixed 1920x1080.",
+      "resolutionType": "Dynamic"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked",
+      "notes": "In Super Mario Galaxy it's using Custom FPS Lock set to 30, Super Mario Sunshine is Double buffer and also using Custom FPS Lock set to 30."
+    },
+    "resolution": {
+      "maxResolution": "1280x720",
+      "minResolution": "640x360",
+      "notes": "In Super Mario Galaxy it's Fixed 960x720, in Super Mario Sunshine it's Fixed 1280x720.",
+      "resolutionType": "Dynamic"
+    }
+  }
+}
