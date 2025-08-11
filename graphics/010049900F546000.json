@@ -11,7 +11,7 @@
     "resolution": {
       "maxResolution": "1920x1080",
       "minResolution": "960x540",
-      "notes": "In Super Mario Galaxy it's Fixed 960x720, in Super Mario Sunshine it's Fixed 1920x1080.",
+      "notes": "In Super Mario 64 it's Fixed 960x720, in Super Mario Sunshine it's Fixed 1920x1080.",
       "resolutionType": "Dynamic"
     }
   },
@@ -24,7 +24,7 @@
     "resolution": {
       "maxResolution": "1280x720",
       "minResolution": "640x360",
-      "notes": "In Super Mario Galaxy it's Fixed 960x720, in Super Mario Sunshine it's Fixed 1280x720.",
+      "notes": "In Super Mario 64 it's Fixed 960x720, in Super Mario Sunshine it's Fixed 1280x720.",
       "resolutionType": "Dynamic"
     }
   }
