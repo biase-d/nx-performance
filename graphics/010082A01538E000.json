@@ -1,46 +1,38 @@
 {
+  "contributor": [
+    "masagrator",
+    "ChanseyIsTheBest"
+  ],
   "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "notes": "Full screen menus run at 60 FPS \nQuality mode has more frequent FPS drops",
+      "targetFps": 30
+    },
     "resolution": {
-      "notes": "Quality mode - 900p\nPerformance mode - 810p",
-      "maxResolution": "",
-      "minResolution": "",
-      "resolutionType": "Multiple Fixed",
-      "fixedResolution": "",
       "multipleResolutions": [
         "1440x810",
-        "1600x900",
-        ""
-      ]
-    },
-    "framerate": {
-      "notes": "Full screen menus run at 60 FPS \nQuality mode has more frequent FPS drops",
-      "lockType": "API",
-      "targetFps": 30,
-      "apiBuffering": "Triple"
-    },
-    "custom": {}
+        "1600x900"
+      ],
+      "notes": "Quality mode - 900p\nPerformance mode - 810p",
+      "resolutionType": "Multiple Fixed"
+    }
   },
   "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "notes": "Full screen menus run at 60 FPS \nQuality mode has more frequent FPS drops",
+      "targetFps": 30
+    },
     "resolution": {
-      "notes": "Quality mode - 720p\nPerformance mode - 576p",
-      "maxResolution": "",
-      "minResolution": "",
-      "resolutionType": "Multiple Fixed",
-      "fixedResolution": "",
       "multipleResolutions": [
         "1280x720",
-        "1024x576",
-        ""
-      ]
-    },
-    "framerate": {
-      "notes": "Full screen menus run at 60 FPS \nQuality mode has more frequent FPS drops",
-      "lockType": "API",
-      "targetFps": 30,
-      "apiBuffering": "Triple"
-    },
-    "custom": {}
-  },
-  "shared": {},
-  "contributor": ["masagrator", "ChanseyIsTheBest"]
+        "1024x576"
+      ],
+      "notes": "Quality mode - 720p\nPerformance mode - 576p",
+      "resolutionType": "Multiple Fixed"
+    }
+  }
 }

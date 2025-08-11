@@ -1,44 +1,31 @@
 {
+  "contributor": "masagrator",
   "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "targetFps": 30
+    },
     "resolution": {
-      "notes": "",
-      "maxResolution": "",
-      "minResolution": "",
-      "resolutionType": "Multiple Fixed",
-      "fixedResolution": "",
       "multipleResolutions": [
         "1440x810",
         "1600x900"
-      ]
-    },
-    "framerate": {
-      "notes": "",
-      "lockType": "API",
-      "targetFps": 30,
-      "apiBuffering": "Triple"
-    },
-    "custom": {}
+      ],
+      "resolutionType": "Multiple Fixed"
+    }
   },
   "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "targetFps": 30
+    },
     "resolution": {
-      "notes": "",
-      "maxResolution": "",
-      "minResolution": "",
-      "resolutionType": "Multiple Fixed",
-      "fixedResolution": "",
       "multipleResolutions": [
         "1024x630",
         "1280x720"
-      ]
-    },
-    "framerate": {
-      "notes": "",
-      "lockType": "API",
-      "targetFps": 30,
-      "apiBuffering": "Triple"
-    },
-    "custom": {}
-  },
-  "shared": {},
-  "contributor": "masagrator"
+      ],
+      "resolutionType": "Multiple Fixed"
+    }
+  }
 }

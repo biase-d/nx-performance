@@ -1,44 +1,29 @@
 {
-  "docked": {
-    "resolution": {
-      "resolutionType": "Fixed",
-      "fixedResolution": "",
-      "minResolution": "",
-      "maxResolution": "",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": "In Performance mode resolution is Dynamic"
-    },
-    "framerate": {
-      "lockType": "API",
-      "targetFps": 30,
-      "apiBuffering": "Triple",
-      "notes": "In Performance mode FPS is set to Unlocked"
-    },
-    "custom": {}
-  },
-  "handheld": {
-    "resolution": {
-      "resolutionType": "Fixed",
-      "fixedResolution": "",
-      "minResolution": "",
-      "maxResolution": "",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": "In Performance mode resolution is Dynamic"
-    },
-    "framerate": {
-      "lockType": "API",
-      "targetFps": 30,
-      "apiBuffering": "Triple",
-      "notes": "In Performance mode FPS is set to Unlocked"
-    },
-    "custom": {}
-  },
-  "shared": {},
   "contributor": [
     "masagrator"
-  ]
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "notes": "In Performance mode FPS is set to Unlocked",
+      "targetFps": 30
+    },
+    "resolution": {
+      "notes": "In Performance mode resolution is Dynamic",
+      "resolutionType": "Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "notes": "In Performance mode FPS is set to Unlocked",
+      "targetFps": 30
+    },
+    "resolution": {
+      "notes": "In Performance mode resolution is Dynamic",
+      "resolutionType": "Fixed"
+    }
+  }
 }

@@ -1,42 +1,31 @@
 {
+  "contributor": "masagrator",
   "docked": {
-    "resolution": {
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "minResolution": "480x270",
-      "maxResolution": "1600x900",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": "Below some resolution it activates TAAU."
-    },
     "framerate": {
-      "lockType": "Custom",
-      "targetFps": 30,
       "apiBuffering": "Double (Reversed)",
-      "notes": "In menus it runs Unlocked."
+      "lockType": "Custom",
+      "notes": "In menus it runs Unlocked.",
+      "targetFps": 30
     },
-    "custom": {}
+    "resolution": {
+      "maxResolution": "1600x900",
+      "minResolution": "480x270",
+      "notes": "Below some resolution it activates TAAU.",
+      "resolutionType": "Dynamic"
+    }
   },
   "handheld": {
-    "resolution": {
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "minResolution": "384x217",
-      "maxResolution": "1280x720",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": "Below some resolution it activates TAAU."
-    },
     "framerate": {
-      "lockType": "Custom",
-      "targetFps": 30,
       "apiBuffering": "Double (Reversed)",
-      "notes": "In menus it runs Unlocked."
+      "lockType": "Custom",
+      "notes": "In menus it runs Unlocked.",
+      "targetFps": 30
     },
-    "custom": {}
-  },
-  "shared": {},
-  "contributor": "masagrator"
+    "resolution": {
+      "maxResolution": "1280x720",
+      "minResolution": "384x217",
+      "notes": "Below some resolution it activates TAAU.",
+      "resolutionType": "Dynamic"
+    }
+  }
 }

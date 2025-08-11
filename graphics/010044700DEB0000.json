@@ -1,42 +1,28 @@
 {
+  "contributor": "masagrator",
   "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "targetFps": 30
+    },
     "resolution": {
-      "notes": "Rogue uses Dynamic Resolution 1280x720 - 1920x1080",
       "maxResolution": "1920x1080",
       "minResolution": "1600x900",
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "multipleResolutions": [
-        ""
-      ]
-    },
-    "framerate": {
-      "notes": "",
-      "lockType": "API",
-      "targetFps": 30,
-      "apiBuffering": "Triple"
-    },
-    "custom": {}
+      "notes": "Rogue uses Dynamic Resolution 1280x720 - 1920x1080",
+      "resolutionType": "Dynamic"
+    }
   },
   "handheld": {
-    "resolution": {
-      "notes": "Rogue uses Dynamic Resolution 860x464 - 1280x720",
-      "maxResolution": "",
-      "minResolution": "",
-      "resolutionType": "Fixed",
-      "fixedResolution": "1280x720",
-      "multipleResolutions": [
-        ""
-      ]
-    },
     "framerate": {
-      "notes": "",
+      "apiBuffering": "Triple",
       "lockType": "API",
-      "targetFps": 30,
-      "apiBuffering": "Triple"
+      "targetFps": 30
     },
-    "custom": {}
-  },
-  "shared": {},
-  "contributor": "masagrator"
+    "resolution": {
+      "fixedResolution": "1280x720",
+      "notes": "Rogue uses Dynamic Resolution 860x464 - 1280x720",
+      "resolutionType": "Fixed"
+    }
+  }
 }

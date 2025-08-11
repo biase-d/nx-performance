@@ -1,44 +1,31 @@
 {
-  "docked": {
-    "resolution": {
-      "notes": "",
-      "maxResolution": "1920x1080",
-      "minResolution": "1536x864",
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "multipleResolutions": [
-        ""
-      ]
-    },
-    "framerate": {
-      "notes": "In menus on top of API Lock there is also Custom FPS Lock",
-      "lockType": "API",
-      "targetFps": 30,
-      "apiBuffering": "Double (Reversed)"
-    },
-    "custom": {}
-  },
-  "handheld": {
-    "resolution": {
-      "notes": "",
-      "maxResolution": "1280x720",
-      "minResolution": "1024x576",
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "multipleResolutions": [
-        ""
-      ]
-    },
-    "framerate": {
-      "notes": "In menus on top of API Lock there is also Custom FPS Lock",
-      "lockType": "API",
-      "targetFps": 30,
-      "apiBuffering": "Double (Reversed)"
-    },
-    "custom": {}
-  },
-  "shared": {},
   "contributor": [
     "masagrator"
-  ]
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Double (Reversed)",
+      "lockType": "API",
+      "notes": "In menus on top of API Lock there is also Custom FPS Lock",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "1920x1080",
+      "minResolution": "1536x864",
+      "resolutionType": "Dynamic"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Double (Reversed)",
+      "lockType": "API",
+      "notes": "In menus on top of API Lock there is also Custom FPS Lock",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "1280x720",
+      "minResolution": "1024x576",
+      "resolutionType": "Dynamic"
+    }
+  }
 }

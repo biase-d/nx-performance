@@ -1,44 +1,32 @@
 {
+  "contributor": "masagrator",
   "docked": {
+    "framerate": {
+      "apiBuffering": "Double",
+      "lockType": "API",
+      "notes": "Menus are always running at 60 FPS. Via update game allows unlocking gameplay's framerate.",
+      "targetFps": 30
+    },
     "resolution": {
-      "resolutionType": "Multiple Fixed",
-      "fixedResolution": "",
-      "minResolution": "",
-      "maxResolution": "",
       "multipleResolutions": [
         "854x480",
         "1280x720",
         "1920x1080"
       ],
-      "notes": "Output resolution is matching system setting \"TV Resolution\""
-    },
-    "framerate": {
-      "lockType": "API",
-      "targetFps": 30,
-      "apiBuffering": "Double",
-      "notes": "Menus are always running at 60 FPS. Via update game allows unlocking gameplay's framerate."
-    },
-    "custom": {}
+      "notes": "Output resolution is matching system setting \"TV Resolution\"",
+      "resolutionType": "Multiple Fixed"
+    }
   },
   "handheld": {
-    "resolution": {
-      "resolutionType": "Fixed",
-      "fixedResolution": "1280x720",
-      "minResolution": "",
-      "maxResolution": "",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": ""
-    },
     "framerate": {
-      "lockType": "API",
-      "targetFps": 30,
       "apiBuffering": "Double",
-      "notes": "Menus are always running at 60 FPS. Via update game allows unlocking gameplay's framerate."
+      "lockType": "API",
+      "notes": "Menus are always running at 60 FPS. Via update game allows unlocking gameplay's framerate.",
+      "targetFps": 30
     },
-    "custom": {}
-  },
-  "shared": {},
-  "contributor": "masagrator"
+    "resolution": {
+      "fixedResolution": "1280x720",
+      "resolutionType": "Fixed"
+    }
+  }
 }

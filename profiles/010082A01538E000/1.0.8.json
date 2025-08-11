@@ -1,24 +1,18 @@
 {
   "docked": {
-    "max_res": "",
-    "min_res": "",
-    "fps_notes": "Full screen menus and synthesis run at 60 FPS\nQuality mode has more frequent FPS drops",
-    "resolution": "",
-    "target_fps": 30,
-    "resolutions": "1440x810, 1600x900",
     "fps_behavior": "Locked",
+    "fps_notes": "Full screen menus and synthesis run at 60 FPS\nQuality mode has more frequent FPS drops",
+    "resolution_notes": "Quality mode - 900p\nPerformance mode - 810p",
     "resolution_type": "Multiple Fixed",
-    "resolution_notes": "Quality mode - 900p\nPerformance mode - 810p"
+    "resolutions": "1440x810, 1600x900",
+    "target_fps": 30
   },
   "handheld": {
-    "max_res": "",
-    "min_res": "",
-    "fps_notes": "Full screen menus and synthesis run at 60 FPS \nQuality mode has more frequent FPS drops",
-    "resolution": "",
-    "target_fps": 30,
-    "resolutions": "1280x720, 1024x576",
     "fps_behavior": "Locked",
+    "fps_notes": "Full screen menus and synthesis run at 60 FPS \nQuality mode has more frequent FPS drops",
+    "resolution_notes": "Quality mode - 720p\nPerformance mode - 576p",
     "resolution_type": "Multiple Fixed",
-    "resolution_notes": "Quality mode - 720p\nPerformance mode - 576p"
+    "resolutions": "1280x720, 1024x576",
+    "target_fps": 30
   }
 }

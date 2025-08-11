@@ -1,54 +1,40 @@
 {
+  "contributor": [
+    "masagrator"
+  ],
   "docked": {
+    "custom": {
+      "Antialiasing": {
+        "value": "TMAA"
+      }
+    },
+    "framerate": {
+      "apiBuffering": "Double",
+      "lockType": "Custom",
+      "targetFps": 30
+    },
     "resolution": {
       "maxResolution": "1280x720",
       "minResolution": "896x504",
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": ""
-    },
-    "framerate": {
-      "notes": "",
-      "lockType": "Custom",
-      "targetFps": 30,
-      "apiBuffering": "Double"
-    },
-    "custom": {
-      "Antialiasing": {
-        "notes": "",
-        "value": "TMAA"
-      }
+      "resolutionType": "Dynamic"
     }
   },
   "handheld": {
-    "resolution": {
-      "maxResolution": "960x540",
-      "minResolution": "672x378",
-      "resolutionType": "Dynamic",
-      "fixedResolution": "",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": ""
-    },
-    "framerate": {
-      "notes": "",
-      "lockType": "Custom",
-      "targetFps": 30,
-      "apiBuffering": "Double"
-    },
     "custom": {
       "Antialiasing": {
         "notes": "Different sharpening filter is used in handheld which results in image being oversharpened.",
         "value": "TMAA"
       }
+    },
+    "framerate": {
+      "apiBuffering": "Double",
+      "lockType": "Custom",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "960x540",
+      "minResolution": "672x378",
+      "resolutionType": "Dynamic"
     }
-  },
-  "shared": {},
-  "contributor": [
-    "masagrator"
-  ]
+  }
 }

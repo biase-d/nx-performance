@@ -1,45 +1,32 @@
 {
+  "contributor": [
+    "masagrator"
+  ],
   "docked": {
+    "framerate": {
+      "apiBuffering": "Double",
+      "lockType": "API",
+      "notes": "Performance mode sets FPS to Unlocked",
+      "targetFps": 30
+    },
     "resolution": {
-      "resolutionType": "Multiple Fixed",
-      "fixedResolution": "",
-      "minResolution": "",
-      "maxResolution": "",
       "multipleResolutions": [
         "1440x900",
         "1066x600"
       ],
-      "notes": "Performance mode uses 1066x600"
-    },
-    "framerate": {
-      "lockType": "API",
-      "targetFps": 30,
-      "apiBuffering": "Double",
-      "notes": "Performance mode sets FPS to Unlocked"
-    },
-    "custom": {}
+      "notes": "Performance mode uses 1066x600",
+      "resolutionType": "Multiple Fixed"
+    }
   },
   "handheld": {
-    "resolution": {
-      "resolutionType": "Fixed",
-      "fixedResolution": "1066x600",
-      "minResolution": "",
-      "maxResolution": "",
-      "multipleResolutions": [
-        ""
-      ],
-      "notes": ""
-    },
     "framerate": {
-      "lockType": "API",
-      "targetFps": 30,
       "apiBuffering": "Double",
-      "notes": ""
+      "lockType": "API",
+      "targetFps": 30
     },
-    "custom": {}
-  },
-  "shared": {},
-  "contributor": [
-    "masagrator"
-  ]
+    "resolution": {
+      "fixedResolution": "1066x600",
+      "resolutionType": "Fixed"
+    }
+  }
 }

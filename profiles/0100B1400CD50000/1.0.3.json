@@ -1,24 +1,16 @@
 {
   "docked": {
-    "max_res": "",
-    "min_res": "",
+    "fps_behavior": "Locked",
     "fps_notes": "Full screen menus and synthesis run at 60 FPS",
     "resolution": "1920x1080",
-    "target_fps": 30,
-    "resolutions": "",
-    "fps_behavior": "Locked",
     "resolution_type": "Fixed",
-    "resolution_notes": ""
+    "target_fps": 30
   },
   "handheld": {
-    "max_res": "",
-    "min_res": "",
+    "fps_behavior": "Locked",
     "fps_notes": "Full screen menus and synthesis run at 60 FPS",
     "resolution": "1280x720",
-    "target_fps": 30,
-    "resolutions": "",
-    "fps_behavior": "Locked",
     "resolution_type": "Fixed",
-    "resolution_notes": ""
+    "target_fps": 30
   }
 }

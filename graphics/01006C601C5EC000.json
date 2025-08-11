@@ -1,46 +1,30 @@
 {
+  "contributor": [
+    "masagrator"
+  ],
   "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked"
+    },
     "resolution": {
-      "notes": "Output resolution is matching system setting \"TV Resolution\"",
-      "maxResolution": "",
-      "minResolution": "",
-      "resolutionType": "Multiple Fixed",
-      "fixedResolution": "",
       "multipleResolutions": [
         "854x480",
         "1280x720",
         "1920x1080"
-      ]
-    },
-    "framerate": {
-      "notes": "",
-      "lockType": "Unlocked",
-      "targetFps": "",
-      "apiBuffering": "Triple"
-    },
-    "custom": {}
+      ],
+      "notes": "Output resolution is matching system setting \"TV Resolution\"",
+      "resolutionType": "Multiple Fixed"
+    }
   },
   "handheld": {
-    "resolution": {
-      "notes": "",
-      "maxResolution": "",
-      "minResolution": "",
-      "resolutionType": "Fixed",
-      "fixedResolution": "1280x720",
-      "multipleResolutions": [
-        ""
-      ]
-    },
     "framerate": {
-      "notes": "",
-      "lockType": "Unlocked",
-      "targetFps": "",
-      "apiBuffering": "Triple"
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked"
     },
-    "custom": {}
-  },
-  "shared": {},
-  "contributor": [
-    "masagrator"
-  ]
+    "resolution": {
+      "fixedResolution": "1280x720",
+      "resolutionType": "Fixed"
+    }
+  }
 }

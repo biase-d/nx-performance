@@ -1,24 +1,16 @@
 {
   "docked": {
-    "resolution_type": "Fixed",
-    "resolution": "1440x810",
-    "resolutions": "",
-    "min_res": "",
-    "max_res": "",
-    "resolution_notes": "",
     "fps_behavior": "Very Unstable",
-    "target_fps": 30,
-    "fps_notes": "Game can freeze even for few seconds because of asset streaming"
+    "fps_notes": "Game can freeze even for few seconds because of asset streaming",
+    "resolution": "1440x810",
+    "resolution_type": "Fixed",
+    "target_fps": 30
   },
   "handheld": {
-    "resolution_type": "Fixed",
-    "resolution": "960x540",
-    "resolutions": "",
-    "min_res": "",
-    "max_res": "",
-    "resolution_notes": "",
     "fps_behavior": "Very Unstable",
-    "target_fps": 30,
-    "fps_notes": "Game can freeze even for few seconds because of asset streaming"
+    "fps_notes": "Game can freeze even for few seconds because of asset streaming",
+    "resolution": "960x540",
+    "resolution_type": "Fixed",
+    "target_fps": 30
   }
 }

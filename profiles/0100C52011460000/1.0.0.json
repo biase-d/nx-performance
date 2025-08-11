@@ -1,24 +1,17 @@
 {
   "docked": {
-    "resolution_type": "Multiple Fixed",
-    "resolution": [],
-    "resolutions": "960x536,1352x760,1560x872,1920x1080",
-    "min_res": "",
-    "max_res": "",
-    "resolution_notes": "The resolutions are Simple Graphics, Medium Graphics, High Graphics and Max Graphics respectively",
     "fps_behavior": "Unstable",
-    "target_fps": 30,
-    "fps_notes": ""
+    "resolution_notes": "The resolutions are Simple Graphics, Medium Graphics, High Graphics and Max Graphics respectively",
+    "resolution_type": "Multiple Fixed",
+    "resolutions": "960x536,1352x760,1560x872,1920x1080",
+    "target_fps": 30
   },
   "handheld": {
-    "resolution_type": "Multiple Fixed",
-    "resolution": "",
-    "resolutions": "640x360,904x504,1040x584,1280x720",
-    "min_res": "",
-    "max_res": "",
-    "resolution_notes": "The resolutions are Simple Graphics, Medium Graphics, High Graphics and Max Graphics respectively",
     "fps_behavior": "Unstable",
-    "target_fps": 30,
-    "fps_notes": "There is a toggle in the settings to unlock 60FPS but the game never manages to meet this target on all resolutions since it's heavily CPU bound"
+    "fps_notes": "There is a toggle in the settings to unlock 60FPS but the game never manages to meet this target on all resolutions since it's heavily CPU bound",
+    "resolution_notes": "The resolutions are Simple Graphics, Medium Graphics, High Graphics and Max Graphics respectively",
+    "resolution_type": "Multiple Fixed",
+    "resolutions": "640x360,904x504,1040x584,1280x720",
+    "target_fps": 30
   }
 }

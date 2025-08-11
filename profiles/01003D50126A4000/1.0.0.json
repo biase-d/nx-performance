@@ -1,24 +1,14 @@
 {
   "docked": {
-    "resolution_type": "Fixed",
-    "resolution": "1664x936",
-    "resolutions": "",
-    "min_res": "",
-    "max_res": "",
-    "resolution_notes": "",
     "fps_behavior": "Locked",
-    "target_fps": 30,
-    "fps_notes": ""
+    "resolution": "1664x936",
+    "resolution_type": "Fixed",
+    "target_fps": 30
   },
   "handheld": {
-    "resolution_type": "Fixed",
-    "resolution": "1024x576",
-    "resolutions": "",
-    "min_res": "",
-    "max_res": "",
-    "resolution_notes": "",
     "fps_behavior": "Locked",
-    "target_fps": 30,
-    "fps_notes": ""
+    "resolution": "1024x576",
+    "resolution_type": "Fixed",
+    "target_fps": 30
   }
 }
