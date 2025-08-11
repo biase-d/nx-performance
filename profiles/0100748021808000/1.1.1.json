@@ -1,0 +1,13 @@
+{
+  "docked": {
+    "fps_behavior": "Locked",
+    "resolution": "1920x1080",
+    "resolution_type": "Fixed"
+  },
+  "handheld": {
+    "fps_behavior": "Unstable",
+    "resolution": "1280x720",
+    "resolution_type": "Fixed",
+    "target_fps": 30
+  }
+}
