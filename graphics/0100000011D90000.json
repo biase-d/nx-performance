@@ -1,5 +1,8 @@
 {
-  "contributor": "ChanseyIsTheBest",
+  "contributor": [
+    "ChanseyIsTheBest",
+    "masagrator"
+  ],
   "docked": {
     "framerate": {
       "apiBuffering": "Triple",

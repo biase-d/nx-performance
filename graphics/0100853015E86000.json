@@ -1,0 +1,36 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "notes": "Title Menu is running Unlocked",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "1152x648",
+      "minResolution": "808x456",
+      "resolutionType": "Dynamic"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "notes": "Title Menu is running Unlocked",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "912x512",
+      "minResolution": "640x360",
+      "resolutionType": "Dynamic"
+    }
+  },
+  "shared": {
+    "Antialiasing": {
+      "value": "FSR2"
+    }
+  }
+}

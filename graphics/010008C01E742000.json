@@ -1,21 +1,22 @@
 {
-  "contributor": "ChanseyIsTheBest",
+  "contributor": [
+    "ChanseyIsTheBest",
+    "masagrator"
+  ],
   "docked": {
     "framerate": {
       "apiBuffering": "Triple",
-      "lockType": "API",
-      "targetFps": 60
+      "lockType": "Unlocked"
     },
     "resolution": {
-      "fixedResolution": "1920x1080",
+      "fixedResolution": "1280x720",
       "resolutionType": "Fixed"
     }
   },
   "handheld": {
     "framerate": {
       "apiBuffering": "Triple",
-      "lockType": "API",
-      "targetFps": 60
+      "lockType": "Unlocked"
     },
     "resolution": {
       "fixedResolution": "1920x1080",

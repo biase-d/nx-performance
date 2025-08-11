@@ -1,5 +1,7 @@
 {
-  "contributor": "masagrator",
+  "contributor": [
+    "masagrator"
+  ],
   "docked": {
     "framerate": {
       "apiBuffering": "Triple",
@@ -8,6 +10,7 @@
     "resolution": {
       "maxResolution": "1280x720",
       "minResolution": "960x540",
+      "notes": "Dynamic resolution targets 30 FPS.",
       "resolutionType": "Dynamic"
     }
   },
@@ -19,6 +22,7 @@
     "resolution": {
       "maxResolution": "1280x720",
       "minResolution": "576x324",
+      "notes": "Dynamic resolution targets 30 FPS.",
       "resolutionType": "Dynamic"
     }
   }
