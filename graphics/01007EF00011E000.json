@@ -1,5 +1,7 @@
 {
-  "contributor": "masagrator",
+  "contributor": [
+    "masagrator"
+  ],
   "docked": {
     "framerate": {
       "apiBuffering": "Double",

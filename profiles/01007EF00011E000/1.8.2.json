@@ -1,10 +1,18 @@
 {
   "docked": {
-    "fps_behavior": "Locked",
-    "resolution_type": "Fixed"
+    "fps_behavior": "Stable",
+    "fps_notes": "Can drop to 20 FPS in Kakariko Village and Korok Forest",
+    "max_res": "1600x900",
+    "min_res": "1280x720",
+    "resolution_type": "Dynamic",
+    "target_fps": 30
   },
   "handheld": {
-    "fps_behavior": "Locked",
-    "resolution_type": "Fixed"
+    "fps_behavior": "Stable",
+    "fps_notes": "Can drop to 20 FPS in Kakariko Village and Korok Forest",
+    "max_res": "1280x720",
+    "min_res": "1024x576",
+    "resolution_type": "Dynamic",
+    "target_fps": 30
   }
 }
