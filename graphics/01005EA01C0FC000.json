@@ -6,13 +6,13 @@
     "framerate": {
       "apiBuffering": "Double (Reversed)",
       "lockType": "Custom",
-      "notes": "In SONIC GENERATIONS it's 31.5 FPS, Triple buffer",
+      "notes": "Sonic Generations is Custom FPS locked to 31.5 FPS",
       "targetFps": 30
     },
     "resolution": {
       "maxResolution": "1280x720",
       "minResolution": "960x540",
-      "notes": "In SONIC GENERATIONS it's Fixed 1920x1080",
+      "notes": "Sonic Generations runs at Fixed 1920x1080",
       "resolutionType": "Dynamic"
     }
   },
@@ -20,13 +20,13 @@
     "framerate": {
       "apiBuffering": "Double (Reversed)",
       "lockType": "Custom",
-      "notes": "In SONIC GENERATIONS it's 31.5 FPS, Triple buffer",
+      "notes": "Sonic Generations is Custom FPS locked to 31.5 FPS",
       "targetFps": 30
     },
     "resolution": {
       "maxResolution": "1280x720",
       "minResolution": "640x360",
-      "notes": "In SONIC GENERATIONS it's Fixed 1280x720",
+      "notes": "Sonic Generations runs at Fixed 1280x720",
       "resolutionType": "Dynamic"
     }
   }
