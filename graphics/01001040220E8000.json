@@ -1,0 +1,29 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "notes": "On top of API Lock there is Custom FPS Lock.",
+      "targetFps": 30
+    },
+    "resolution": {
+      "fixedResolution": "1212x684",
+      "resolutionType": "Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "notes": "On top of API Lock there is Custom FPS Lock.",
+      "targetFps": 30
+    },
+    "resolution": {
+      "fixedResolution": "808x456",
+      "resolutionType": "Fixed"
+    }
+  }
+}
