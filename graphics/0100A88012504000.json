@@ -1,23 +1,29 @@
 {
-  "contributor": "masagrator",
+  "contributor": [
+    "masagrator"
+  ],
   "docked": {
     "framerate": {
-      "apiBuffering": "Unknown",
+      "apiBuffering": "Triple",
       "lockType": "API",
       "targetFps": 30
     },
     "resolution": {
-      "resolutionType": "Fixed"
+      "maxResolution": "1728x792",
+      "minResolution": "1440x810",
+      "resolutionType": "Dynamic"
     }
   },
   "handheld": {
     "framerate": {
-      "apiBuffering": "Unknown",
+      "apiBuffering": "Triple",
       "lockType": "API",
       "targetFps": 30
     },
     "resolution": {
-      "resolutionType": "Fixed"
+      "maxResolution": "1152x648",
+      "minResolution": "960x540",
+      "resolutionType": "Dynamic"
     }
   }
 }
