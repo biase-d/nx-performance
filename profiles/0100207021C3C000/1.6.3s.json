@@ -1,0 +1,13 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "fps_behavior": "Locked",
+    "resolution_type": "Fixed"
+  },
+  "handheld": {
+    "fps_behavior": "Locked",
+    "resolution_type": "Fixed"
+  }
+}
