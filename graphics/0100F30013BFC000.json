@@ -5,8 +5,7 @@
   "docked": {
     "framerate": {
       "apiBuffering": "Triple",
-      "lockType": "API",
-      "targetFps": 30
+      "lockType": "Unlocked"
     },
     "resolution": {
       "resolutionType": "Fixed"
@@ -15,8 +14,7 @@
   "handheld": {
     "framerate": {
       "apiBuffering": "Triple",
-      "lockType": "API",
-      "targetFps": 30
+      "lockType": "Unlocked"
     },
     "resolution": {
       "resolutionType": "Fixed"
