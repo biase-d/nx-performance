@@ -1,0 +1,15 @@
+{
+  "contributor": [
+    "biase-d"
+  ],
+  "docked": {
+    "fps_behavior": "Locked",
+    "resolution_type": "Fixed"
+  },
+  "handheld": {
+    "fps_behavior": "Locked",
+    "resolution": "1280x720",
+    "resolution_notes": "Test ",
+    "resolution_type": "Fixed"
+  }
+}
