@@ -4,7 +4,7 @@
   ],
   "docked": {
     "framerate": {
-      "lockType": "API",
+      "lockType": "Unlocked",
       "targetFps": 60
     },
     "resolution": {
@@ -14,7 +14,7 @@
   },
   "handheld": {
     "framerate": {
-      "lockType": "API",
+      "lockType": "Unlocked",
       "targetFps": 60
     },
     "resolution": {
