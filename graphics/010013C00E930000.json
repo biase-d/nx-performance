@@ -1,0 +1,25 @@
+{
+  "contributor": [
+    "biase-d"
+  ],
+  "docked": {
+    "framerate": {
+      "lockType": "API",
+      "targetFps": 60
+    },
+    "resolution": {
+      "fixedResolution": "1280x720",
+      "resolutionType": "Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "lockType": "API",
+      "targetFps": 60
+    },
+    "resolution": {
+      "fixedResolution": "1024x576",
+      "resolutionType": "Fixed"
+    }
+  }
+}
