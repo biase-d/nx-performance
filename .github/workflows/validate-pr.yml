@@ -2,7 +2,8 @@ name: Validate Data PR
 
 on:
   pull_request:
-    branches: [main]
+    branches: [ v3 ]
+    types: [ opened, synchronize, reopened ]
 
 jobs:
   validate-json:
@@ -15,35 +16,86 @@ jobs:
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v44
+        with:
+          fetch-depth: 2
 
-      - name: Run validation script
+      - name: Run validation script and capture output
         id: validation
         if: steps.changed-files.outputs.all_changed_files != ''
         continue-on-error: true
         run: |
           echo "Validating files:"
           echo "${{ steps.changed-files.outputs.all_changed_files }}"
-          bash scripts/validate.sh ${{ steps.changed-files.outputs.all_changed_files }}
+          
+          output_file=$(mktemp)
+          
+          if ! bash scripts/validate.sh ${{ steps.changed-files.outputs.all_changed_files }} &> "$output_file"; then
+            echo "Validation script failed. Setting exit code to 1."
+            exit_code=1
+          else
+            echo "Validation script succeeded."
+            exit_code=0
+          fi
+          
+          validation_content=$(cat "$output_file")
+          rm "$output_file"
+          
+          echo "validation_output<<EOF" >> $GITHUB_OUTPUT
+          echo "$validation_content" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          
+          exit $exit_code
 
-      - name: Post failure comment on PR
-        if: failure() && steps.validation.outcome == 'failure'
+      - name: Post or update failure comment
+        if: steps.validation.outcome == 'failure'
         uses: actions/github-script@v7
         with:
           script: |
             const prNumber = context.issue.number;
-            const body = `**⚠️ Validation Failed**
+            const output = `${{ steps.validation.outputs.validation_output }}`;
+            
+            const body = `**Validation Failed**
 
-            The automatic schema check for this Pull Request has failed. Please review the following:
+            The automatic data validation for this Pull Request has failed. Please review the errors below and push your corrections to this branch to re-run the check
             
-            1. Ensure all submitted files are valid JSON.
-            2. Check that all files match the required schema as defined in the repository's \`README.md\`.
-            3. Review the "Checks" tab on this PR for detailed error logs from the validation script.
+            <details>
+            <summary>Click to view validation errors</summary>
             
-            Once corrected, please push changes to your branch to re-run the validation.
+            \`\`\`
+            ${output || 'No output was captured from the validation script'}
+            \`\`\`
+            
+            </details>
+            
+            ---
+            *If you believe this is an error with the validation script itself, please contact @biase-d*
             `;
-            await github.rest.issues.createComment({
+            
+            const { data: comments } = await github.rest.issues.listComments({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: prNumber,
-              body: body
             });
+
+            const botComment = comments.find(comment => 
+              comment.user.login === 'github-actions[bot]' && 
+              comment.body.includes('**Validation Failed**')
+            );
+
+            if (botComment) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body: body
+              });
+              console.log(`Updated existing validation comment #${botComment.id}`);
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                body: body
+              });
+              console.log('Posted a new validation failure comment');
+            }
