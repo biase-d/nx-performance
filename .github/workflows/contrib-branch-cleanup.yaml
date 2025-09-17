@@ -1,0 +1,17 @@
+name: Delete Merged Contribution Branch
+
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  delete-contribution-branch:
+    if: github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'contrib/')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete contribution branch
+        uses: peter-evans/delete-branch@v4
+        with:
+          repository: biase-d/nx-performance
+          branch: ${{ github.event.pull_request.head.ref }}
