@@ -2,7 +2,7 @@ name: Validate Data PR
 
 on:
   pull_request:
-    branches: [ v3 ]
+    branches: [ v2 ]
     types: [ opened, synchronize, reopened ]
 
 jobs:
