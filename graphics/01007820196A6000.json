@@ -19,7 +19,8 @@
   "handheld": {
     "framerate": {
       "apiBuffering": "Triple",
-      "lockType": "API"
+      "lockType": "API",
+      "targetFps": 30
     },
     "resolution": {
       "fixedResolution": "1280x720",
