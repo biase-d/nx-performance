@@ -3,7 +3,7 @@
     "biase-d"
   ],
   "docked": {
-    "fps_behavior": "Locked",
+    "fps_behavior": "Stable",
     "fps_notes": "Framerate drops during specific ultimate moves",
     "resolution": "1600x900",
     "resolution_type": "Fixed",
