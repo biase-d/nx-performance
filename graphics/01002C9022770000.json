@@ -1,0 +1,33 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked",
+      "notes": "Loading screens are API locked to 20 FPS",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "1600x900",
+      "minResolution": "800x450",
+      "notes": "Dynamic resolution targets 30 FPS",
+      "resolutionType": "Dynamic"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked",
+      "notes": "Loading screens are API locked to 20 FPS",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "1600x900",
+      "minResolution": "640x360",
+      "notes": "Dynamic resolution targets 30 FPS",
+      "resolutionType": "Dynamic"
+    }
+  }
+}
