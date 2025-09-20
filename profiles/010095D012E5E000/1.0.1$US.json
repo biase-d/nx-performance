@@ -1,5 +1,17 @@
 {
   "contributor": [
     "masagrator"
-  ]
+  ],
+  "docked": {
+    "fps_behavior": "Very Unstable",
+    "resolution": "1280x720",
+    "resolution_type": "Fixed",
+    "target_fps": 30
+  },
+  "handheld": {
+    "fps_behavior": "Very Unstable",
+    "resolution": "854x480",
+    "resolution_type": "Fixed",
+    "target_fps": 30
+  }
 }
