@@ -4,21 +4,27 @@
   ],
   "docked": {
     "framerate": {
-      "apiBuffering": "Triple",
+      "apiBuffering": "Double (Reversed)",
       "lockType": "API",
       "targetFps": 30
     },
     "resolution": {
+      "maxResolution": "960x1080",
+      "minResolution": "484x544",
+      "notes": "Some kind of temporal interlacing is in use",
       "resolutionType": "Dynamic"
     }
   },
   "handheld": {
     "framerate": {
-      "apiBuffering": "Triple",
+      "apiBuffering": "Double (Reversed)",
       "lockType": "API",
       "targetFps": 30
     },
     "resolution": {
+      "maxResolution": "640x720",
+      "minResolution": "320x360",
+      "notes": "Some kind of temporal interlacing is in use",
       "resolutionType": "Dynamic"
     }
   }
