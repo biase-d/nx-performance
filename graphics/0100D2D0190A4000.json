@@ -1,10 +1,11 @@
 {
   "contributor": [
-    "biase-d"
+    "biase-d",
+    "masagrator"
   ],
   "docked": {
     "framerate": {
-      "apiBuffering": "Double",
+      "apiBuffering": "Double (Reversed)",
       "lockType": "Custom",
       "targetFps": 30
     },
@@ -15,7 +16,7 @@
   },
   "handheld": {
     "framerate": {
-      "apiBuffering": "Double",
+      "apiBuffering": "Double (Reversed)",
       "lockType": "Custom",
       "targetFps": 30
     },
