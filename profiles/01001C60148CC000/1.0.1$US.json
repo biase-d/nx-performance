@@ -1,0 +1,19 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "fps_behavior": "Very Unstable",
+    "fps_notes": "In menus it's 30 FPS.",
+    "resolution": "1280x720",
+    "resolution_type": "Fixed",
+    "target_fps": 30
+  },
+  "handheld": {
+    "fps_behavior": "Very Unstable",
+    "fps_notes": "In menus it's 60 FPS",
+    "resolution": "960x544",
+    "resolution_type": "Fixed",
+    "target_fps": 30
+  }
+}
