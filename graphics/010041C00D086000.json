@@ -1,10 +1,11 @@
 {
-  "contributor": "masagrator",
+  "contributor": [
+    "masagrator"
+  ],
   "docked": {
     "framerate": {
-      "apiBuffering": "Triple",
-      "lockType": "Custom",
-      "notes": "It's possible to unlock framerate by using Konami Code.",
+      "apiBuffering": "Double",
+      "lockType": "Unlocked",
       "targetFps": 30
     },
     "resolution": {
@@ -14,13 +15,12 @@
   },
   "handheld": {
     "framerate": {
-      "apiBuffering": "Triple",
-      "lockType": "Custom",
-      "notes": "It's possible to unlock framerate by using Konami Code.",
+      "apiBuffering": "Double",
+      "lockType": "Unlocked",
       "targetFps": 30
     },
     "resolution": {
-      "fixedResolution": "1920x1080",
+      "fixedResolution": "1280x720",
       "resolutionType": "Fixed"
     }
   }
