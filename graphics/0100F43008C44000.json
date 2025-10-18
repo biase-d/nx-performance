@@ -10,7 +10,7 @@
     },
     "resolution": {
       "maxResolution": "1920x1080",
-      "minResolution": "1056x592",
+      "minResolution": "1056x594",
       "resolutionType": "Dynamic"
     }
   },
@@ -22,13 +22,13 @@
     },
     "resolution": {
       "maxResolution": "1280x720",
-      "minResolution": "704x392",
+      "minResolution": "704x396",
       "resolutionType": "Dynamic"
     }
   },
   "shared": {
     "Antialiasing": {
-      "notes": "Sharpening is activated when dynamic resolution reaches 432p in handheld / 562p in docked.",
+      "notes": "Sharpening is activated when dynamic resolution dips to 432p in handheld / 648p in docked and below.",
       "value": "FSR1"
     }
   }
