@@ -25,5 +25,11 @@
       "minResolution": "704x392",
       "resolutionType": "Dynamic"
     }
+  },
+  "shared": {
+    "Antialiasing": {
+      "notes": "Sharpening is activated when dynamic resolution reaches 432p in handheld / 562p in docked.",
+      "value": "FSR1"
+    }
   }
 }
