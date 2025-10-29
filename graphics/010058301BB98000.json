@@ -6,6 +6,7 @@
     "framerate": {
       "apiBuffering": "Double",
       "lockType": "API",
+      "notes": "Cutscenes are using Triple buffer.",
       "targetFps": 30
     },
     "resolution": {
@@ -17,6 +18,7 @@
     "framerate": {
       "apiBuffering": "Double",
       "lockType": "API",
+      "notes": "Cutscenes are using Triple buffer.",
       "targetFps": 30
     },
     "resolution": {
