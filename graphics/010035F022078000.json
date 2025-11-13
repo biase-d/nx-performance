@@ -1,0 +1,29 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Double (Reversed)",
+      "lockType": "API",
+      "notes": "When not rendering 3d space, game runs Unlocked",
+      "targetFps": 30
+    },
+    "resolution": {
+      "fixedResolution": "1280x720",
+      "resolutionType": "Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Double (Reversed)",
+      "lockType": "API",
+      "notes": "When not rendering 3d space, game runs Unlocked",
+      "targetFps": 30
+    },
+    "resolution": {
+      "fixedResolution": "854x480",
+      "resolutionType": "Fixed"
+    }
+  }
+}
