@@ -1,0 +1,36 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "targetFps": 30
+    },
+    "resolution": {
+      "fixedResolution": "1600x900",
+      "multipleResolutions": [
+        "1440x810",
+        "1600x900"
+      ],
+      "notes": "Depends on mode and game's environment.",
+      "resolutionType": "Multiple Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "targetFps": 30
+    },
+    "resolution": {
+      "multipleResolutions": [
+        "960x540",
+        "1120x630"
+      ],
+      "notes": "Depends on mode and game's environment.",
+      "resolutionType": "Multiple Fixed"
+    }
+  }
+}
