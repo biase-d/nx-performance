@@ -1,0 +1,33 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Double",
+      "lockType": "Unlocked"
+    },
+    "resolution": {
+      "multipleResolutions": [
+        "1600x900",
+        "1920x1080"
+      ],
+      "notes": "Depends on game/menu",
+      "resolutionType": "Multiple Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Double",
+      "lockType": "Unlocked"
+    },
+    "resolution": {
+      "multipleResolutions": [
+        "1152x648",
+        "1280x720"
+      ],
+      "notes": "Depends on game/menu",
+      "resolutionType": "Multiple Fixed"
+    }
+  }
+}
