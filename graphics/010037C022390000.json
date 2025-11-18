@@ -11,7 +11,7 @@
     "resolution": {
       "maxResolution": "1920x1080",
       "minResolution": "1344x756",
-      "notes": "If TV Resolution is set to 720p, resolution range is 896x504-1280x720",
+      "notes": "If TV Resolution is not set to 1080p, resolution range is 896x504-1280x720",
       "resolutionType": "Dynamic"
     }
   },
