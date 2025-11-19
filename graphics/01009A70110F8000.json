@@ -1,0 +1,39 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked",
+      "notes": "FPS Lock in Options doesn't work."
+    },
+    "resolution": {
+      "fixedResolution": "1920x1080",
+      "multipleResolutions": [
+        "960x540",
+        "1440x810",
+        "1920x1080"
+      ],
+      "notes": "You can adjust resolution in Options. By default it's 1920x1080.",
+      "resolutionType": "Multiple Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked",
+      "notes": "FPS Lock in Options doesn't work."
+    },
+    "resolution": {
+      "fixedResolution": "1280x720",
+      "multipleResolutions": [
+        "640x360",
+        "960x540",
+        "1280x720"
+      ],
+      "notes": "You can adjust resolution in Options. By default it's 1280x720.",
+      "resolutionType": "Multiple Fixed"
+    }
+  }
+}
