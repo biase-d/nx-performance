@@ -1,0 +1,27 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked"
+    },
+    "resolution": {
+      "fixedResolution": "1024x768",
+      "notes": "You can choosse 4:3 or stretched 16:9 mode",
+      "resolutionType": "Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked"
+    },
+    "resolution": {
+      "fixedResolution": "1024x768",
+      "notes": "You can choose 4:3 or stretched 16:9 mode",
+      "resolutionType": "Fixed"
+    }
+  }
+}
