@@ -8,13 +8,14 @@
       "lockType": "Unlocked"
     },
     "resolution": {
+      "fixedResolution": "1024x768",
       "multipleResolutions": [
         "854x480",
         "1280x720",
         "1920x1080"
       ],
-      "notes": "It adjusts to TV Resolution set in System Settings",
-      "resolutionType": "Multiple Fixed"
+      "notes": "To choose 4:3 or stretched 16:9",
+      "resolutionType": "Fixed"
     }
   },
   "handheld": {
@@ -23,7 +24,8 @@
       "lockType": "Unlocked"
     },
     "resolution": {
-      "fixedResolution": "1280x720",
+      "fixedResolution": "1024x768",
+      "notes": "To choose 4:3 or stretched 16:9",
       "resolutionType": "Fixed"
     }
   }
