@@ -9,7 +9,13 @@
     },
     "resolution": {
       "fixedResolution": "1920x1080",
-      "resolutionType": "Fixed"
+      "multipleResolutions": [
+        "854x480",
+        "1280x720",
+        "1920x1080"
+      ],
+      "notes": "Resolution adjusts to TV Resolution in System Settings",
+      "resolutionType": "Multiple Fixed"
     }
   },
   "handheld": {
