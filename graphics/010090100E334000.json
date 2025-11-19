@@ -5,8 +5,7 @@
   "docked": {
     "framerate": {
       "apiBuffering": "Double",
-      "lockType": "API",
-      "notes": "On top of API Lock there is Custom FPS Lock",
+      "lockType": "Custom",
       "targetFps": 30
     },
     "resolution": {
@@ -17,8 +16,7 @@
   "handheld": {
     "framerate": {
       "apiBuffering": "Double",
-      "lockType": "API",
-      "notes": "On top of API Lock there is Custom FPS Lock",
+      "lockType": "Custom",
       "targetFps": 30
     },
     "resolution": {
