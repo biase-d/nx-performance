@@ -20,7 +20,7 @@
       "lockType": "Unlocked"
     },
     "resolution": {
-      "maxResolution": "1564x880",
+      "maxResolution": "1600x900",
       "minResolution": "852x480",
       "notes": "Dynamic resolution targets 30 FPS",
       "resolutionType": "Dynamic"
