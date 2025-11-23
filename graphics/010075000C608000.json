@@ -8,9 +8,9 @@
       "lockType": "Unlocked"
     },
     "resolution": {
-      "maxResolution": "1280x720",
+      "maxResolution": "1600x900",
       "minResolution": "1024x576",
-      "notes": "In High Quality mode it's Fixed 1280x720.\nDynamic resolution targets 30 FPS.",
+      "notes": "In High Quality mode it's Fixed 1600x900.\nDynamic resolution targets 30 FPS.",
       "resolutionType": "Dynamic"
     }
   },
