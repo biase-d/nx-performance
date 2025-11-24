@@ -10,7 +10,7 @@
     "resolution": {
       "maxResolution": "1423x800",
       "minResolution": "960x540",
-      "notes": "Dynamic resolution targets 30 FPS.",
+      "notes": "In DLC range is 988x556-1976x1112.\nDynamic resolution targets 30 FPS.",
       "resolutionType": "Dynamic"
     }
   },
@@ -22,7 +22,7 @@
     "resolution": {
       "maxResolution": "1280x720",
       "minResolution": "960x540",
-      "notes": "Dynamic resolution targets 30 FPS.",
+      "notes": "In DLC range is 1002x564-1336x752.\nDynamic resolution targets 30 FPS.",
       "resolutionType": "Dynamic"
     }
   }
