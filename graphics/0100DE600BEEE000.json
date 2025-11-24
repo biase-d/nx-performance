@@ -22,7 +22,7 @@
     "resolution": {
       "maxResolution": "1280x720",
       "minResolution": "854x480",
-      "notes": "Disabled dynamic resolution results in Fixed 1280x720.\nDynamic resolution targets 30 FPS.",
+      "notes": "Disabled dynamic resolution results in Fixed 1280x720.\nDynamic resolution targets 30 FPS. Test",
       "resolutionType": "Dynamic"
     }
   }
