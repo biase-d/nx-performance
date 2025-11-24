@@ -1,0 +1,41 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "notes": "When using \"Performance+\" or \"Performance\" quality setting, it gets unlocked.",
+      "targetFps": 30
+    },
+    "resolution": {
+      "multipleResolutions": [
+        "1066x600",
+        "1280x720",
+        "1408x792",
+        "1920x1080"
+      ],
+      "notes": "Depends on \"Quality\" setting in Video category.",
+      "resolutionType": "Multiple Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "notes": "When using \"Performance+\" quality settings, it gets unlocked.",
+      "targetFps": 30
+    },
+    "resolution": {
+      "multipleResolutions": [
+        "768x432",
+        "890x500",
+        "1066x600",
+        "1280x720"
+      ],
+      "notes": "Depends on \"Quality\" setting in Video category.",
+      "resolutionType": "Multiple Fixed"
+    }
+  }
+}
