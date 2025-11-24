@@ -6,7 +6,6 @@
     "framerate": {
       "apiBuffering": "Double",
       "lockType": "Custom",
-      "notes": "In menus it's Unlocked",
       "targetFps": 30
     },
     "resolution": {
@@ -18,7 +17,6 @@
     "framerate": {
       "apiBuffering": "Double",
       "lockType": "Custom",
-      "notes": "In menus it's Unlocked",
       "targetFps": 30
     },
     "resolution": {
