@@ -14,6 +14,7 @@
         "1280x720",
         "1920x1080"
       ],
+      "notes": "Resolution adjusts itself to TV Resolution in System Settings",
       "resolutionType": "Multiple Fixed"
     }
   },
