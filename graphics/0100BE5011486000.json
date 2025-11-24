@@ -1,0 +1,26 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked"
+    },
+    "resolution": {
+      "fixedResolution": "1280x720",
+      "notes": "UI resolution is adjusted to match TV Resolution in System Settings.",
+      "resolutionType": "Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked"
+    },
+    "resolution": {
+      "fixedResolution": "1280x720",
+      "resolutionType": "Fixed"
+    }
+  }
+}
