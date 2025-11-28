@@ -9,7 +9,6 @@
       "targetFps": 30
     },
     "resolution": {
-      "fixedResolution": "1920x1080",
       "resolutionType": "Fixed"
     }
   },
@@ -20,7 +19,6 @@
       "targetFps": 30
     },
     "resolution": {
-      "fixedResolution": "1280x720",
       "resolutionType": "Fixed"
     }
   }
