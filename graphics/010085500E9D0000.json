@@ -1,0 +1,15 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Unknown"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Unknown"
+    }
+  }
+}
