@@ -4,22 +4,12 @@
   ],
   "docked": {
     "framerate": {
-      "apiBuffering": "Triple",
-      "lockType": "API",
-      "targetFps": 30
-    },
-    "resolution": {
-      "resolutionType": "Dynamic"
+      "apiBuffering": "Unknown"
     }
   },
   "handheld": {
     "framerate": {
-      "apiBuffering": "Triple",
-      "lockType": "API",
-      "targetFps": 30
-    },
-    "resolution": {
-      "resolutionType": "Dynamic"
+      "apiBuffering": "Unknown"
     }
   }
 }
