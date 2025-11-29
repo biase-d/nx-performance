@@ -1,0 +1,41 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "additionalLocks": [
+        {
+          "lockType": "Unlocked",
+          "notes": "Possible to unlock in settings."
+        }
+      ],
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "notes": "Default setting.",
+      "targetFps": 30
+    },
+    "resolution": {
+      "fixedResolution": "1280x720",
+      "resolutionType": "Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "additionalLocks": [
+        {
+          "lockType": "Unlocked",
+          "notes": "Possible to unlock in settings."
+        }
+      ],
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "notes": "Default setting.",
+      "targetFps": 30
+    },
+    "resolution": {
+      "fixedResolution": "1024x576",
+      "resolutionType": "Fixed"
+    }
+  }
+}
