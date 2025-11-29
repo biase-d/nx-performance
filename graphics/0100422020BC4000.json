@@ -4,6 +4,12 @@
   ],
   "docked": {
     "framerate": {
+      "additionalLocks": [
+        {
+          "lockType": "Unlocked",
+          "notes": "European release works always Unlocked. Dynamic resolution still targets 30 FPS."
+        }
+      ],
       "apiBuffering": "Triple",
       "lockType": "API",
       "notes": "In menus it's Unlocked",
@@ -17,6 +23,12 @@
   },
   "handheld": {
     "framerate": {
+      "additionalLocks": [
+        {
+          "lockType": "Unlocked",
+          "notes": "European release works always Unlocked. Dynamic resolution still targets 30 FPS."
+        }
+      ],
       "apiBuffering": "Triple",
       "lockType": "API",
       "notes": "In menus it's Unlocked",
