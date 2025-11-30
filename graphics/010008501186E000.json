@@ -5,7 +5,9 @@
   "docked": {
     "framerate": {
       "apiBuffering": "Triple",
-      "lockType": "Unlocked"
+      "lockType": "API",
+      "notes": "At first boot of game it runs Unlocked. On next boot is locked.",
+      "targetFps": 30
     },
     "resolution": {
       "maxResolution": "1920x1080",
@@ -17,7 +19,9 @@
   "handheld": {
     "framerate": {
       "apiBuffering": "Triple",
-      "lockType": "Unlocked"
+      "lockType": "API",
+      "notes": "At first boot of game it runs Unlocked. On next boot is locked.",
+      "targetFps": 30
     },
     "resolution": {
       "maxResolution": "1280x720",
