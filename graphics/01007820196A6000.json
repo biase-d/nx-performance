@@ -1,5 +1,7 @@
 {
-  "contributor": "masagrator",
+  "contributor": [
+    "masagrator"
+  ],
   "docked": {
     "framerate": {
       "apiBuffering": "Triple",
@@ -7,13 +9,15 @@
       "targetFps": 30
     },
     "resolution": {
+      "maxResolution": "1920x1080",
+      "minResolution": "1717x965",
       "multipleResolutions": [
         "854x480",
         "1280x720",
         "1920x1080"
       ],
-      "notes": "Resolution is adjusted to system setting \"TV Resolution\"",
-      "resolutionType": "Multiple Fixed"
+      "notes": "Max resolution is adjusted to system setting \"TV Resolution\".\nFor 720p range is 1144x643 - 1280x720, for 480p it's 763x429-854x480.",
+      "resolutionType": "Dynamic"
     }
   },
   "handheld": {
@@ -24,7 +28,9 @@
     },
     "resolution": {
       "fixedResolution": "1280x720",
-      "resolutionType": "Fixed"
+      "maxResolution": "1280x720",
+      "minResolution": "1144x643",
+      "resolutionType": "Dynamic"
     }
   }
 }
