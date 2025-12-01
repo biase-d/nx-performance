@@ -1,0 +1,29 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked"
+    },
+    "resolution": {
+      "maxResolution": "1600x900",
+      "minResolution": "1088x612",
+      "notes": "Dynamic resolution targets 38 FPS.",
+      "resolutionType": "Dynamic"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked"
+    },
+    "resolution": {
+      "maxResolution": "1068x600",
+      "minResolution": "726x408",
+      "notes": "Dynamic resolution targets 38 FPS.",
+      "resolutionType": "Dynamic"
+    }
+  }
+}
