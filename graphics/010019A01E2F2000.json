@@ -1,0 +1,29 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked"
+    },
+    "resolution": {
+      "maxResolution": "1440x810",
+      "minResolution": "1245x700",
+      "notes": "Resolution above is for stuff before the MC's visor. Everything else is rendered at Fixed 1600x900. Resolution seems to be adjusted based on complexity of rendered scene without any look into how long it takes to render frame.",
+      "resolutionType": "Dynamic"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked"
+    },
+    "resolution": {
+      "maxResolution": "864x468",
+      "minResolution": "747x420",
+      "notes": "Resolution above is for stuff before the MC's visor. Everything else is rendered at Fixed 1024x576. Resolution seems to be adjusted based on complexity of rendered scene without any look into how long it takes to render frame.",
+      "resolutionType": "Dynamic"
+    }
+  }
+}
