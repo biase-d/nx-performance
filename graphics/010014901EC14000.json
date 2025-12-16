@@ -1,0 +1,41 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "targetFps": 30
+    },
+    "resolution": {
+      "multipleResolutions": [
+        "320x240",
+        "426x240",
+        "480x360",
+        "640x360",
+        "1920x1080"
+      ],
+      "notes": "To choose from Options.",
+      "resolutionType": "Multiple Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "targetFps": 30
+    },
+    "resolution": {
+      "multipleResolutions": [
+        "320x240",
+        "426x240",
+        "480x360",
+        "640x360",
+        "1920x1080"
+      ],
+      "notes": "To choose from Options.",
+      "resolutionType": "Multiple Fixed"
+    }
+  }
+}
