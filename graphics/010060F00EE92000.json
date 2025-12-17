@@ -11,6 +11,7 @@
     "resolution": {
       "maxResolution": "1920x1080",
       "minResolution": "1344x1080",
+      "notes": "Dynamic resolution is targeting 25 FPS.",
       "resolutionType": "Dynamic"
     }
   },
@@ -23,6 +24,7 @@
     "resolution": {
       "maxResolution": "1280x720",
       "minResolution": "896x720",
+      "notes": "Dynamic resolution is targeting 25 FPS.",
       "resolutionType": "Dynamic"
     }
   }
