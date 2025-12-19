@@ -1,0 +1,27 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked",
+      "notes": "Main character movement is always locked to 30 FPS."
+    },
+    "resolution": {
+      "fixedResolution": "1280x720",
+      "resolutionType": "Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked",
+      "notes": "Main character movement is always locked to 30 FPS."
+    },
+    "resolution": {
+      "fixedResolution": "854x480",
+      "resolutionType": "Fixed"
+    }
+  }
+}
