@@ -1,0 +1,31 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Double (Reversed)",
+      "lockType": "API",
+      "notes": "Gameplay is bugged because game speed was fixed to match 60 FPS, which results in 2x slower gameplay than on other platforms.",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "1280x720",
+      "minResolution": "461x260",
+      "resolutionType": "Dynamic"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Double (Reversed)",
+      "lockType": "API",
+      "notes": "Gameplay is bugged because game speed was fixed to match 60 FPS, which results in 2x slower gameplay than on other platforms.",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "1280x720",
+      "minResolution": "461x260",
+      "resolutionType": "Dynamic"
+    }
+  }
+}
