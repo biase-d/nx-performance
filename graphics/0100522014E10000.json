@@ -10,7 +10,7 @@
     "resolution": {
       "maxResolution": "1920x1080",
       "minResolution": "640x360",
-      "notes": "Dynamic resolution targets 30 FPS.",
+      "notes": "Dynamic resolution targets 30 FPS. When you hide game and go back, dynamic resolution stops working for the remaining game session, fixing resolution to 1920x1080.",
       "resolutionType": "Dynamic"
     }
   },
@@ -22,7 +22,7 @@
     "resolution": {
       "maxResolution": "1280x720",
       "minResolution": "426x240",
-      "notes": "Dynamic resolution targets 30 FPS.",
+      "notes": "Dynamic resolution targets 30 FPS. When you hide game and go back, dynamic resolution stops working for the remaining game session, fixing resolution to 1280x720.",
       "resolutionType": "Dynamic"
     }
   }
