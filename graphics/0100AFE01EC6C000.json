@@ -4,7 +4,7 @@
   ],
   "docked": {
     "framerate": {
-      "apiBuffering": "Triple",
+      "apiBuffering": "Double (Reversed)",
       "lockType": "API",
       "targetFps": 30
     },
@@ -16,7 +16,7 @@
   },
   "handheld": {
     "framerate": {
-      "apiBuffering": "Triple",
+      "apiBuffering": "Double (Reversed)",
       "lockType": "API",
       "targetFps": 30
     },
