@@ -6,6 +6,7 @@
     "framerate": {
       "apiBuffering": "Double (Reversed)",
       "lockType": "API",
+      "notes": "Gameplay is bugged because game speed was fixed to match 60 FPS while developer locked game to 60 FPS, which results in 2x slower game than on other platforms.",
       "targetFps": 30
     },
     "resolution": {
@@ -18,6 +19,7 @@
     "framerate": {
       "apiBuffering": "Double (Reversed)",
       "lockType": "API",
+      "notes": "Gameplay is bugged because game speed was fixed to match 60 FPS while developer locked game to 60 FPS, which results in 2x slower game than on other platforms.",
       "targetFps": 30
     },
     "resolution": {
