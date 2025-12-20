@@ -6,7 +6,6 @@
     "framerate": {
       "apiBuffering": "Triple",
       "lockType": "API",
-      "notes": "On top of API Lock there is Custom FPS Lock.",
       "targetFps": 30
     },
     "resolution": {
@@ -18,7 +17,6 @@
     "framerate": {
       "apiBuffering": "Triple",
       "lockType": "API",
-      "notes": "On top of API Lock there is Custom FPS Lock.",
       "targetFps": 30
     },
     "resolution": {
