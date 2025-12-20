@@ -6,7 +6,6 @@
     "framerate": {
       "apiBuffering": "Double",
       "lockType": "API",
-      "notes": "Outside of race it's triple buffer.",
       "targetFps": 30
     },
     "resolution": {
@@ -19,7 +18,6 @@
     "framerate": {
       "apiBuffering": "Double",
       "lockType": "API",
-      "notes": "Outside of race it's triple buffer.",
       "targetFps": 30
     },
     "resolution": {
