@@ -10,6 +10,7 @@
     "resolution": {
       "maxResolution": "1824x1026",
       "minResolution": "1366x768",
+      "notes": "Dynamic resolution targets 30 FPS.",
       "resolutionType": "Dynamic"
     }
   },
