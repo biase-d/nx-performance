@@ -1,0 +1,36 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "targetFps": 30
+    },
+    "resolution": {
+      "multipleResolutions": [
+        "1280x720",
+        "1600x900"
+      ],
+      "notes": "In Settings change \"Better FPS\" to \"Better Graphics\" to get 900p",
+      "resolutionType": "Multiple Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "targetFps": 30
+    },
+    "resolution": {
+      "fixedResolution": "960x540",
+      "multipleResolutions": [
+        "800x450",
+        "960x540"
+      ],
+      "notes": "In Settings change \"Better FPS\" to \"Better Graphics\" to get 540p",
+      "resolutionType": "Multiple Fixed"
+    }
+  }
+}
