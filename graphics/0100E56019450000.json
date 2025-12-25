@@ -4,8 +4,16 @@
   ],
   "docked": {
     "framerate": {
+      "additionalLocks": [
+        {
+          "lockType": "API",
+          "notes": "Better Graphics",
+          "targetFps": 30
+        }
+      ],
       "apiBuffering": "Triple",
-      "lockType": "API",
+      "lockType": "Unlocked",
+      "notes": "Better FPS",
       "targetFps": 30
     },
     "resolution": {
@@ -19,8 +27,16 @@
   },
   "handheld": {
     "framerate": {
+      "additionalLocks": [
+        {
+          "lockType": "API",
+          "notes": "Better Graphics",
+          "targetFps": 30
+        }
+      ],
       "apiBuffering": "Triple",
-      "lockType": "API",
+      "lockType": "Unlocked",
+      "notes": "Better FPS",
       "targetFps": 30
     },
     "resolution": {
