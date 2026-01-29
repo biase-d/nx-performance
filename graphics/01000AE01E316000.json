@@ -28,5 +28,10 @@
       "notes": "When System Priority Mode is set to \"Graphics\", dynamic resolution targets 22 FPS.",
       "resolutionType": "Dynamic"
     }
+  },
+  "shared": {
+    "Antialiasing": {
+      "value": "FSR1"
+    }
   }
 }
