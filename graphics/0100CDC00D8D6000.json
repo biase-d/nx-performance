@@ -1,0 +1,28 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Double",
+      "lockType": "Unlocked"
+    },
+    "resolution": {
+      "maxResolution": "1920x1080",
+      "minResolution": "960x540",
+      "notes": "Resolution is adjusted to TV Resolution in System Settings. Resolution range for 720p is 640x360-1280x720, for 480p it's 427x240-854x480.",
+      "resolutionType": "Dynamic"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Double",
+      "lockType": "Unlocked"
+    },
+    "resolution": {
+      "maxResolution": "1280x720",
+      "minResolution": "640x360",
+      "resolutionType": "Dynamic"
+    }
+  }
+}
