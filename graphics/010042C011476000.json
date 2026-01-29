@@ -12,7 +12,7 @@
         "1280x720",
         "1920x1080"
       ],
-      "notes": "Game resolution is adjusted to TV Resolution in System Settings. Anything else than 1080p has resolution set to 1280x720.",
+      "notes": "Game resolution is adjusted to TV Resolution in System Settings. Anything else than 720p has resolution set to 1920x1080.",
       "resolutionType": "Multiple Fixed"
     }
   },
