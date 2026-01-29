@@ -5,7 +5,8 @@
   "docked": {
     "framerate": {
       "apiBuffering": "Double (Reversed)",
-      "lockType": "Unlocked"
+      "lockType": "API",
+      "targetFps": 30
     },
     "resolution": {
       "fixedResolution": "1280x720",
@@ -15,7 +16,8 @@
   "handheld": {
     "framerate": {
       "apiBuffering": "Double (Reversed)",
-      "lockType": "Unlocked"
+      "lockType": "API",
+      "targetFps": 30
     },
     "resolution": {
       "fixedResolution": "1152x648",
