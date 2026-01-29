@@ -1,0 +1,32 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "targetFps": 30
+    },
+    "resolution": {
+      "maxResolution": "1920x1080",
+      "minResolution": "960x536",
+      "notes": "When System Priority Mode is set to \"Graphics\", dynamic resolution targets 22 FPS.\n\nGame resolution is adjusted to TV Resolution in System Settings. For 720p resolution range is 640x360-1280x720, for 480p it's 424x240-854x480.",
+      "resolutionType": "Dynamic"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "targetFps": 30
+    },
+    "resolution": {
+      "fixedResolution": "1280x720",
+      "maxResolution": "1280x720",
+      "minResolution": "640x360",
+      "notes": "When System Priority Mode is set to \"Graphics\", dynamic resolution targets 22 FPS.",
+      "resolutionType": "Dynamic"
+    }
+  }
+}
