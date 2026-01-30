@@ -1,0 +1,27 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked"
+    },
+    "resolution": {
+      "fixedResolution": "480x272",
+      "notes": "Game is integer scaled to 1280x720 and upscaled to 1920x1080.",
+      "resolutionType": "Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked"
+    },
+    "resolution": {
+      "fixedResolution": "480x272",
+      "notes": "Game is integer scaled to 960x540 and upscaled to 1280x720.",
+      "resolutionType": "Fixed"
+    }
+  }
+}
