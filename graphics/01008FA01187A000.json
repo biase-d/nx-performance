@@ -9,7 +9,7 @@
     },
     "resolution": {
       "fixedResolution": "480x272",
-      "notes": "Game is integer scaled to 1280x720.",
+      "notes": "Game is integer scaled to 1280x720 and upscaled to 1920x1080.",
       "resolutionType": "Fixed"
     }
   },
@@ -20,7 +20,7 @@
     },
     "resolution": {
       "fixedResolution": "480x272",
-      "notes": "Game is integer scaled to 960x540.",
+      "notes": "Game is integer scaled to 960x540 and upscaled to 1280x720.",
       "resolutionType": "Fixed"
     }
   }
