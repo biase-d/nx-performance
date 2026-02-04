@@ -1,0 +1,40 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked",
+      "notes": "\"TARGET FPS\" setting is broken."
+    },
+    "resolution": {
+      "multipleResolutions": [
+        "640x360",
+        "960x540",
+        "1280x720",
+        "1600x900",
+        "1920x1080"
+      ],
+      "notes": "Customizable in settings.",
+      "resolutionType": "Multiple Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "Unlocked",
+      "notes": "\"TARGET FPS\" setting is broken."
+    },
+    "resolution": {
+      "fixedResolution": "640x360",
+      "multipleResolutions": [
+        "640x360",
+        "960x540",
+        "1280x720"
+      ],
+      "notes": "Customizable in settings.",
+      "resolutionType": "Multiple Fixed"
+    }
+  }
+}
