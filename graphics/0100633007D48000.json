@@ -8,7 +8,7 @@
       "lockType": "Unlocked"
     },
     "resolution": {
-      "fixedResolution": "1920x1080",
+      "fixedResolution": "1280x720",
       "resolutionType": "Fixed"
     }
   },
@@ -18,7 +18,7 @@
       "lockType": "Unlocked"
     },
     "resolution": {
-      "fixedResolution": "1280x720",
+      "fixedResolution": "1024x576",
       "resolutionType": "Fixed"
     }
   },
