@@ -1,16 +1,16 @@
 {
   "contributor": [
-    "biase-d"
+    "masagrator"
   ],
   "docked": {
     "fps_behavior": "Stable",
-    "resolution": "1280x720",
+    "resolution": "1920x1080",
     "resolution_type": "Fixed",
     "target_fps": 60
   },
   "handheld": {
     "fps_behavior": "Stable",
-    "resolution": "1024x576",
+    "resolution": "1280x720",
     "resolution_type": "Fixed",
     "target_fps": 60
   }
