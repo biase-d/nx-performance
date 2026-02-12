@@ -4,24 +4,12 @@
   ],
   "docked": {
     "framerate": {
-      "apiBuffering": "Triple",
-      "lockType": "API",
-      "targetFps": 30
-    },
-    "resolution": {
-      "fixedResolution": "854x480",
-      "resolutionType": "Fixed"
+      "apiBuffering": "Unknown"
     }
   },
   "handheld": {
     "framerate": {
-      "apiBuffering": "Triple",
-      "lockType": "API",
-      "targetFps": 30
-    },
-    "resolution": {
-      "fixedResolution": "1280x720",
-      "resolutionType": "Fixed"
+      "apiBuffering": "Unknown"
     }
   }
 }
