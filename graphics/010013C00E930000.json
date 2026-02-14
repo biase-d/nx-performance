@@ -23,5 +23,10 @@
       "fixedResolution": "1024x576",
       "resolutionType": "Fixed"
     }
+  },
+  "shared": {
+    "Engine": {
+      "value": "Unity"
+    }
   }
 }
