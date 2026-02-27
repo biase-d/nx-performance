@@ -1,6 +1,7 @@
 {
   "contributor": [
-    "masagrator"
+    "masagrator",
+    "Jhmily"
   ],
   "docked": {
     "framerate": {
@@ -9,6 +10,7 @@
       "targetFps": 30
     },
     "resolution": {
+      "fixedResolution": "1728x972",
       "resolutionType": "Fixed"
     }
   },
@@ -19,6 +21,7 @@
       "targetFps": 30
     },
     "resolution": {
+      "fixedResolution": "1152x648",
       "resolutionType": "Fixed"
     }
   }
