@@ -5,24 +5,26 @@
   "docked": {
     "framerate": {
       "apiBuffering": "Double (Reversed)",
-      "lockType": "API",
+      "lockType": "Unlocked",
       "targetFps": 30
     },
     "resolution": {
       "maxResolution": "1600x900",
       "minResolution": "1068x600",
+      "notes": "Dynamic resolution targets 30 FPS.",
       "resolutionType": "Dynamic"
     }
   },
   "handheld": {
     "framerate": {
       "apiBuffering": "Double (Reversed)",
-      "lockType": "API",
+      "lockType": "Unlocked",
       "targetFps": 30
     },
     "resolution": {
       "maxResolution": "1152x648",
       "minResolution": "864x486",
+      "notes": "Dynamic resolution targets 30 FPS.",
       "resolutionType": "Dynamic"
     }
   }
