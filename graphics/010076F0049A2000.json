@@ -5,7 +5,8 @@
   "docked": {
     "framerate": {
       "apiBuffering": "Triple",
-      "lockType": "Unlocked"
+      "lockType": "Unlocked",
+      "notes": "Prerendered cutscenes and some real time cutscenes are API locked to 30 FPS."
     },
     "resolution": {
       "fixedResolution": "1280x720",
@@ -15,7 +16,8 @@
   "handheld": {
     "framerate": {
       "apiBuffering": "Triple",
-      "lockType": "Unlocked"
+      "lockType": "Unlocked",
+      "notes": "Prerendered cutscenes and some real time cutscenes are API locked to 30 FPS."
     },
     "resolution": {
       "fixedResolution": "1280x720",
