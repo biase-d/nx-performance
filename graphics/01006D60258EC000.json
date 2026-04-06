@@ -1,0 +1,43 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "additionalLocks": [
+        {
+          "lockType": "Unlocked",
+          "notes": "Proritize Frame Rate On"
+        }
+      ],
+      "apiBuffering": "Triple",
+      "lockType": "Custom",
+      "notes": "Proritize Frame Rate Off - Default",
+      "targetFps": 30
+    },
+    "resolution": {
+      "fixedResolution": "1920x1080",
+      "notes": "With \"Prioritize Frame Rate\" resolution is Fixed 1280x720.",
+      "resolutionType": "Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "additionalLocks": [
+        {
+          "lockType": "Unlocked",
+          "notes": "Proritize Frame Rate On"
+        }
+      ],
+      "apiBuffering": "Triple",
+      "lockType": "Custom",
+      "notes": "Proritize Frame Rate Off - Default",
+      "targetFps": 30
+    },
+    "resolution": {
+      "fixedResolution": "1280x720",
+      "notes": "With \"Prioritize Frame Rate\" resolution is Fixed 768x432.",
+      "resolutionType": "Fixed"
+    }
+  }
+}
