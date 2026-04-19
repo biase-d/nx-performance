@@ -10,7 +10,9 @@
     },
     "resolution": {
       "fixedResolution": "1920x1080",
-      "resolutionType": "Fixed"
+      "maxResolution": "1920x1080",
+      "minResolution": "960x540",
+      "resolutionType": "Dynamic"
     }
   },
   "handheld": {
@@ -21,7 +23,9 @@
     },
     "resolution": {
       "fixedResolution": "1280x720",
-      "resolutionType": "Fixed"
+      "maxResolution": "1280x720",
+      "minResolution": "938x527",
+      "resolutionType": "Dynamic"
     }
   }
 }
