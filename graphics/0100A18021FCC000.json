@@ -6,7 +6,7 @@
     "framerate": {
       "apiBuffering": "Triple",
       "lockType": "API",
-      "notes": "On top of API lock there is custom FPS lock.\nAlso game animation targets 25 FPS, so you gets always getting bad framepacing because of frameskipping.",
+      "notes": "On top of API lock there is custom FPS lock.",
       "targetFps": 30
     },
     "resolution": {
@@ -19,7 +19,7 @@
     "framerate": {
       "apiBuffering": "Triple",
       "lockType": "API",
-      "notes": "On top of API lock there is custom vsync based lock.\nAlso game animation targets 25 FPS, so player gets always getting bad framepacing because of frameskipping.",
+      "notes": "On top of API lock there is custom vsync based lock.",
       "targetFps": 30
     },
     "resolution": {
