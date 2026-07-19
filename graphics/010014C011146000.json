@@ -9,7 +9,9 @@
       "targetFps": 30
     },
     "resolution": {
-      "resolutionType": "Fixed"
+      "maxResolution": "1920x1080",
+      "minResolution": "1344x756",
+      "resolutionType": "Dynamic"
     }
   },
   "handheld": {
@@ -19,7 +21,9 @@
       "targetFps": 30
     },
     "resolution": {
-      "resolutionType": "Fixed"
+      "maxResolution": "1280x720",
+      "minResolution": "896x504",
+      "resolutionType": "Dynamic"
     }
   }
 }
