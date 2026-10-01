@@ -1,5 +1,7 @@
 {
-  "contributor": "masagrator",
+  "contributor": [
+    "masagrator"
+  ],
   "docked": {
     "framerate": {
       "apiBuffering": "Double",
@@ -7,6 +9,7 @@
       "targetFps": 30
     },
     "resolution": {
+      "fixedResolution": "1056x594",
       "resolutionType": "Fixed"
     }
   },
@@ -17,6 +20,7 @@
       "targetFps": 30
     },
     "resolution": {
+      "fixedResolution": "704x396",
       "resolutionType": "Fixed"
     }
   }
