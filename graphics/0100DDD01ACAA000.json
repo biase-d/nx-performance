@@ -4,22 +4,26 @@
   ],
   "docked": {
     "framerate": {
-      "apiBuffering": "Double",
+      "apiBuffering": "Triple",
       "lockType": "API",
       "targetFps": 30
     },
     "resolution": {
-      "resolutionType": "Fixed"
+      "maxResolution": "1600x900",
+      "minResolution": "800x450",
+      "resolutionType": "Dynamic"
     }
   },
   "handheld": {
     "framerate": {
-      "apiBuffering": "Double",
+      "apiBuffering": "Triple",
       "lockType": "API",
       "targetFps": 30
     },
     "resolution": {
-      "resolutionType": "Fixed"
+      "maxResolution": "1066x600",
+      "minResolution": "533x300",
+      "resolutionType": "Dynamic"
     }
   }
 }
