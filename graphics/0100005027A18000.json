@@ -1,0 +1,31 @@
+{
+  "contributor": [
+    "masagrator"
+  ],
+  "docked": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "notes": "On top of API lock there is custom vsync based lock and custom fps lock",
+      "targetFps": 30
+    },
+    "resolution": {
+      "fixedResolution": "640x360",
+      "notes": "Image is integer scaled to 1280x720 for 720p and 1080p output, for 480p it's rendered at 854x480 without scaling.",
+      "resolutionType": "Fixed"
+    }
+  },
+  "handheld": {
+    "framerate": {
+      "apiBuffering": "Triple",
+      "lockType": "API",
+      "notes": "On top of API lock there is custom vsync based lock and custom fps lock",
+      "targetFps": 30
+    },
+    "resolution": {
+      "fixedResolution": "640x360",
+      "notes": "Image is integer scaled to 1280x720",
+      "resolutionType": "Fixed"
+    }
+  }
+}
