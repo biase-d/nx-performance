@@ -11,6 +11,7 @@
     "resolution": {
       "maxResolution": "1920x1080",
       "minResolution": "1000x568",
+      "notes": "When not in match, dynamic resolution targets 20 FPS.\nWhen system's TV Resolution is not set to 1080p, it targets 720p with handheld settings.",
       "resolutionType": "Dynamic"
     }
   },
@@ -23,6 +24,7 @@
     "resolution": {
       "maxResolution": "1280x720",
       "minResolution": "896x504",
+      "notes": "When not in match, dynamic resolution targets 20 FPS.",
       "resolutionType": "Dynamic"
     }
   }
