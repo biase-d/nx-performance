@@ -9,7 +9,7 @@
       "targetFps": 30
     },
     "resolution": {
-      "fixedResolution": "1280x720",
+      "fixedResolution": "1152x648",
       "resolutionType": "Fixed"
     }
   },
