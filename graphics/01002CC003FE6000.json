@@ -9,6 +9,8 @@
       "targetFps": 30
     },
     "resolution": {
+      "maxResolution": "1600x900",
+      "minResolution": "1120x630",
       "resolutionType": "Dynamic"
     }
   },
@@ -19,6 +21,8 @@
       "targetFps": 30
     },
     "resolution": {
+      "maxResolution": "1152x648",
+      "minResolution": "796x448",
       "resolutionType": "Dynamic"
     }
   }
